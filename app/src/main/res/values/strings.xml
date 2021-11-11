@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="action_lenguage">Idioma</string>
+    <string name="action_settings">Acerca de</string>
+    <string name="app_centros">Centros de Investigación</string>
+    <string name="app_facultades">Facultades</string>
+    <string name="app_galeria">Galería</string>
+    <string name="app_mapa">Mapa</string>
+    <string name="app_menu_subtitle">Universidad Central \"Marta Abreu\" de las Villas</string>
+    <string name="app_menu_subtitle_menu">Univ. Central de las Villas</string>
+    <string name="app_menu_title">Visita Virtual</string>
+    <string name="app_name">Visita Virtual a la UCLV</string>
+    <string name="app_otros">Otros lugares</string>
+    <string name="btn_cancelar">No</string>
+    <string name="btn_regresar">Regresar</string>
+    <string name="btn_salir">Si</string>
+    <string name="btn_text_salir">¿Desea cerrar la aplicaión?</string>
+    <string name="btn_title">Confirmación</string>
+    <string name="dialog_credit_departamento">Departamento de Tecnología Educativa</string>
+    <string name="dialog_credit_realizadopor">Realizado por:</string>
+    <string name="dialog_credit_title">INFORMACIÓN</string>
+    <string name="dialog_idioma_espannol">Español</string>
+    <string name="dialog_idioma_ingles">Inglés</string>
+    <string name="dialog_idioma_title">Seleccionar Idioma</string>
+    <string name="img_1">Valla situada a la entrada de la UCLV</string>
+    <string name="img_10">Interior Sala Historia</string>
+    <string name="img_11">Centro de Estudios de Dirección Empresarial</string>
+    <string name="img_12">Comedor de Ciencias Agropecuarias</string>
+    <string name="img_13">Hotel Los Sauces</string>
+    <string name="img_14">Instituto de Biotecnología de las Plantas</string>
+    <string name="img_15">Edificio de Becas en área de Ciencias Agropecuarias</string>
+    <string name="img_16">Tabloncillo áreas deportivas</string>
+    <string name="img_17">Piscinas</string>
+    <string name="img_18">Vista aérea de las áreas deportivas</string>
+    <string name="img_19">Acto de inaguración de los Juegos Criollos</string>
+    <string name="img_2">Escultura de Marta Abreu</string>
+    <string name="img_20">Encendido de la antorcha de los Juegos Criollos</string>
+    <string name="img_21">Juegos Criollos</string>
+    <string name="img_22">Juegos Criollos</string>
+    <string name="img_23">Panadería</string>
+    <string name="img_24">Centro de Bioactivos Químicos</string>
+    <string name="img_25">Laboratorio del Centro de Bioactivos Químicos</string>
+    <string name="img_26">Centro de Investigaciones Informáticas</string>
+    <string name="img_27">Laboratorio del Centro de Investigaciones Informáticas</string>
+    <string name="img_28">Facultad de Construcciones</string>
+    <string name="img_29">Facultad de Construcciones</string>
+    <string name="img_3">Vista del Edificio del Rectorado</string>
+    <string name="img_30">Facultad de Construcciones</string>
+    <string name="img_31">Colección Coronado</string>
+    <string name="img_32">Colección Coronado</string>
+    <string name="img_33">Colección Coronado</string>
+    <string name="img_34">Colección Coronado</string>
+    <string name="img_35">Facultad de Ciencias Económicas</string>
+    <string name="img_36">Facultad de Ciencias Económicas</string>
+    <string name="img_37">Facultad de Ciencias Económicas</string>
+    <string name="img_38">Entrada a la Facultad de Ingeniería Eléctrica</string>
+    <string name="img_39">Laboratorio de Electrónica de la Facultad de Ingeniería Eléctrica</string>
+    <string name="img_4">Policlínico universitario</string>
+    <string name="img_40">Laboratorio de Electrónica de la Facultad de Ingeniería Eléctrica</string>
+    <string name="img_41">Grupo de automatización, robótica y percepción de la Facultad de Ingeniería Eléctrica</string>
+    <string name="img_42">Grupo de automatización, robótica y percepción de la Facultad de Ingeniería Eléctrica</string>
+    <string name="img_43">Laboratorio de Electrónica Analógica de la Facultad de Ingeniería Eléctrica</string>
+    <string name="img_44">Casa del Estudiante</string>
+    <string name="img_45">Casa del Estudiante</string>
+    <string name="img_46">Casa del Estudiante</string>
+    <string name="img_47">Caminata por la Ruta del Che</string>
+    <string name="img_48">Caminata por la Ruta del Che</string>
+    <string name="img_49">Caminata por la Ruta del Che</string>
+    <string name="img_5">Dirección de Internacionalización</string>
+    <string name="img_50">Facultad de Ciencias Solicales</string>
+    <string name="img_51">Centro de Estudios Comunitarios</string>
+    <string name="img_52">Edificio Facultad de Humanidades</string>
+    <string name="img_53">Edificio Facultad de Humanidades</string>
+    <string name="img_54">Centro de Idiomas</string>
+    <string name="img_55">Facultad de Humanidades</string>
+    <string name="img_56">Facultad de Ciencias Solicales</string>
+    <string name="img_57">Facultad de Ciencias Solicales</string>
+    <string name="img_58">Facultad de Ciencias Solicales</string>
+    <string name="img_59">Centro de Estudios Jardín Botánico</string>
+    <string name="img_6">Salón de reuniones XXXV Aniversario</string>
+    <string name="img_60">Centro de Estudios Jardín Botánico</string>
+    <string name="img_61">Centro de Estudios Jardín Botánico</string>
+    <string name="img_62">Centro de Estudios Jardín Botánico</string>
+    <string name="img_63">Facultad de Química Farmacia</string>
+    <string name="img_64">Laboratorio de la Facultad de Química Farmacia</string>
+    <string name="img_65">Entrada a las facultades de Mecánica Industrial y Química Farmacia</string>
+    <string name="img_66">Facultad de Ingeniería Mecánica Industrial</string>
+    <string name="img_67">Taller de Soldadura de la Facultad de Ingeniería Mecánica Industrial</string>
+    <string name="img_68">Laboratorio de Hidráulica de la Facultad de Ingeniería Mecánica Industrial</string>
+    <string name="img_69">Laboratorio de Metrología de la Facultad de Ingeniería Mecánica Industrial</string>
+    <string name="img_7">Edificio Administrativo</string>
+    <string name="img_70">Talleres de Mecánica de la Facultad de Ingeniería Mecánica Industrial</string>
+    <string name="img_71">Taller de Fundición de la Facultad de Ingeniería Mecánica Industrial</string>
+    <string name="img_72">Taller de Motor de la Facultad de Ingeniería Mecánica Industrial</string>
+    <string name="img_73">Facultad de Matemática Física y Computación</string>
+    <string name="img_74">Laboratorio ACM de la Facultad de Matemática Física y Computación</string>
+    <string name="img_75">Laboratorio ACM de la Facultad de Matemática Física y Computación</string>
+    <string name="img_76">Laboratorio de Computación de la Facultad de Matemática Física y Computación</string>
+    <string name="img_77">Laboratorio de Electromagnetismo de la Facultad de Matemática Física y Computación</string>
+    <string name="img_78">Laboratorio de Electromagnetismo de la Facultad de Matemática Física y Computación</string>
+    <string name="img_79">Festival de Artistas Aficionados de la FEU</string>
+    <string name="img_8">Interior Sala Historia</string>
+    <string name="img_80">Conjunto Danzario 5 de Septiembre</string>
+    <string name="img_81">Conjunto Danzario 5 de Septiembre</string>
+    <string name="img_82">Festival de Artistas Aficionados de la FEU</string>
+    <string name="img_83">Festival de Artistas Aficionados de la FEU</string>
+    <string name="img_84">Edificio de becas 900</string>
+    <string name="img_85">Busto Felix Varela</string>
+    <string name="img_86">Escultura mano pensante</string>
+    <string name="img_87">Museo Arqueología</string>
+    <string name="img_88">Laboratorio de idioma</string>
+    <string name="img_89">Laboratorio de química</string>
+    <string name="img_9">Interior Sala Historia</string>
+    <string name="img_90">Facultad de Infantil</string>
+    <string name="img_91">Cede Fajardo</string>
+    <string name="img_92">Sala de historia del Fajardo</string>
+    <string name="img_93">Áreas Fajardo</string>
+    <string name="large_text_cbq">"El Centro de Bioactivos Químicos (CBQ) tiene sus antecedentes en la década de los 70 cuando se iniciaron las primeras síntesis de compuestos orgánicos en la Facultad de Ciencias  de la Universidad Central “Marta Abreu” de Las Villas. En 1977 se inician los estudios con el producto G-1 y en Abril de 1981 se crea el grupo multidisciplinario de aplicación de Bioactivos Furánicos (GABIFU). 
+
+ El 4 de Diciembre de 1990 en una histórica reunión que contó con la presencia del Comandante en Jefe Fidel Castro Ruz y el grupo de investigación GABIFU compuesto por profesores e investigadores de la Universidad Central de Las Villas, se decidió la creación del Centro de Bioactivos Químicos a partir de los resultados obtenidos por el grupo de investigación GABIFU desde los primeros años de la década del 80 y dentro del marco de una política nacional de desarrollo de la industria biotecnológica y médico – farmacéutica, con la misión de desarrollar, producir y comercializar nuevas entidades moleculares con acción biológica altamente competitivas a partir de los desechos de la caña de Azúcar.
+        
+
+
+        En el X Aniversario de la creación del GABIFU con la presencia de la querida compañera Rosa Elena Simeón Negrín, quien hizo las conclusiones de la actividad. El GABIFU cambió su nombre y se comenzó a llamar Centro de Bioactivos Químicos CBQ.
+        
+
+"</string>
+    <string name="large_text_cec">"Potenciar el autodesarrollo de las comunidades como elemento clave para alcanzar niveles superiores de emancipación humana y dignificación personal mediante el desarrollo de la investigación científico técnica, la formación profesional y postgraduada y los servicios científico – técnicos
+        Principales Líneas de Investigación. 
+
+ Fundamentos y condiciones del desarrollo comunitario y su práctica social. 
+
+ - Procesos formativos para el desarrollo comunitario. 
+ - Organización, dirección, liderazgo y gobernabilidad comunitaria. 
+ - Tratamiento comunitario de procesos de integración social y de la diversidad. 
+ - Praxis del desarrollo local comunitario."</string>
+    <string name="large_text_cecfd">"El Centro de Estudio de Cultura Física y Deporte (CECFD) surge como resultado de la integración de los cuatro Centros de Estudios (Centro de Estudios para el Tiempo Libre y la Recreación Física, Centro de Estudio de Juegos Deportivos, Centro de Estudio de Psicología del Deporte y el Centro de Estudio de Valores Sociales de la Actividad Deportiva), que existían en la Facultad de Cultura Física de Villa Clara, hoy una Facultad de la Universidad Central \"Marta Abreu\" de Las Villas. 
+ Se sustenta el trabajo científico del Centro en los resultados destacados alcanzados por el territorio en los juegos deportivos durante los eventos nacionales en los Juegos Escolares y Juveniles, por los cuales esta provincia se encuentra entre las tres más destacadas en Cuba, resultados que se mantienen por más de una década."</string>
+    <string name="large_text_ced" />
+    <string name="large_text_cee">"El Centro de Estudios Electroenergéticos (CEE), creado en abril de 1988 mediante una resolución rectoral, está formado por un colectivo de especialistas de la rama eléctrica que se dedican a la Línea Científica Universitaria: \"Eficiencia y Calidad de los Sistemas Eléctricos de Potencia\". 
+ Las principales líneas de trabajo del CEE se relacionan con el desarrollo y aplicación de software especializado al campo de la energía eléctrica en los grupos de trabajo: Sistemas Eléctricos de Potencia, Redes de Distribución, Sistemas Eléctricos Industriales y Calidad de la Energía, Protección de Sistemas Eléctricos, Técnicas de Alta Tensión."</string>
+    <string name="large_text_ceed">"Creado en el año 2000, la misión actual del Centro de Estudios de Educación \"Gaspar Jorge García Galló\" (CEEd) consiste en el desarrollo de proyectos de investigación sobre los problemas contemporáneos de la educación superior, y en estrecho vínculo con ellos ejecutar programas de superación profesional y académica que contribuyan al perfeccionamiento continuo de la formación pedagógica del claustro universitario, así como el desarrollo de espacios para la socialización de los resultados científicos. 
+ 
+ Los objetivos estratégicos, que responden a la planeación estratégica de la universidad y a la misión declarada son: 
+    > Mantener un vínculo estrecho con las facultades de la UCLV redimensionando el trabajo de asesoría científico-pedagógica y metodológica de los procesos educativos e investigativos que desarrollan. 
+    > Incrementar la motivación, la preparación y el compromiso de los profesores, investigadores y trabajadores en la superación pedagógica y la misión de la universidad como institución educativa, utilizando estrategias de comunicación y formación pedagógica continua. 
+    > Mejorar la gestión de la información y del proceso docente educativo, con el uso de las tecnologías de la información y las comunicaciones. 
+    > Sistematizar la evaluación del impacto en los egresados universitarios como proceso contraparte del proceso de formación de profesionales de la UCLV. 
+    > Mejorar la calidad del proceso educativo de la UCLV con resultados de investigación que tributen a la línea de investigación liderada por el CEEd: Perfeccionamiento de la educación. 
+ 
+ Programas académicos que desarrolla el centro: 
+ Doctorado en Ciencias Pedagógicas (Programa acreditado de Excelencia por la Junta de Acreditación Nacional de Cuba). 
+ 
+ Maestría en Ciencias de la Educación (Programa acreditado de Excelencia por la Junta de Acreditación Nacional de Cuba). 
+ 
+ Maestría en Ciencias Pedagógicas (Programa Acreditado por la Junta de Acreditación Nacional de Cuba)."</string>
+    <string name="large_text_cei">"Es un centro adjunto creado en 1973 con el nombre de Centro de Cálculo de la Universidad Central, llamado ahora  Centro de Investigaciones de la Informática (CII). En su inauguración estuvo presente el entonces presidente de la República, Dr. Osvaldo Dorticós Torrado, que visitó nuestra Universidad acompañado del entonces Ministro de Educación, compañero Belarmino Castilla Más. El Dr. Dorticós pronunció el discurso inaugural del Centro de Cálculo en nuestro teatro Universitario, el 10 de Septiembre de 1973. 
+
+ Al abrirse como Centro de Cálculo fue situada en él una computadora francesa llamada   IRIS 10, que fue la primera computadora digital que existió en nuestro centro. 
+
+ Actualmente tiene como principales líneas de investigación  Ciencia e Ingeniería de la Computación, con énfasis en: Inteligencia artificial, Sistemas de Información, Procesamiento digital de señales e imágenes, y Analítica del aprendizaje. 
+
+"</string>
+    <string name="large_text_cemni">"El Centro de Estudios de Métodos Computacionales y Numéricos en la Ingeniería (CEMNI) se encuentra integrado por un colectivo de 10 profesionales entre los cuales figuran Ingenieros Civiles, Ingenieros Mecánicos, Ingenieros Computacionales, Arquitectos y Matemáticos. 
+
+ Entre las principales líneas de trabajo se destacan la producción de software y otros programas computacionales que ayudan al trabajo de cálculos en las ramas de la ingeniería. 
+
+"</string>
+    <string name="large_text_ceqa">"El Centro de Estudios de Química Aplicada (CEQA), perteneciente a la Facultad de Química Farmacia de esta casa de altos estudios, fue fundado el 1ro de abril de 1989. 
+ Este centro tiene como misión investigar en la temática del riesgo tecnológico y ambiental, el desarrollo y aplicación de métodos avanzados en los tratamientos de aguas residuales, residuos tóxicos, como vías para aumentar la seguridad tecnológica y ambiental en los procesos químicos. 
+ Para su trabajo, cuenta con un personal altamente calificado y ha alcanzado varios reconocimientos provinciales y nacionales en la temática medio ambiental, entre ellos se encuentra como uno de los más significativos el Premio Nacional de Medio Ambiente obtenido en el año 2016."</string>
+    <string name="large_text_ceta">"Adscrito a la Facultad de Ingeniería Mecánica de la Universidad Central “Marta Abreu” de las Villas, se creó el 27 de junio 1992. Tiene como misión: 
+
+ - Generar, difundir, transferir resultados científicos tecnológicos  y prestar servicios orientados al desarrollo energético sostenible, para lograr altos impactos económicos, sociales y ambientales en el territorio y el país, a partir del uso eficiente de la energía, el aprovechamiento de las fuentes renovables y la reducción del impacto ambiental de las transformaciones energéticas. 
+ - Contribuir, a la formación integral de ingenieros mecánicos con la calidad que reclama nuestra sociedad y comprometidos con el proyecto social cubano, y a elevar el nivel científico técnico de profesionales en el ámbito nacional e internacional."</string>
+    <string name="large_text_ciap">"El Centro de Investigaciones Agropecuarias (CIAP), fue  fundado en el año 1963 como uno de los primeros centros de investigaciones en el interior del país y dentro de la propia Universidad Central “Marta Abreu” de Las Villas. En 1969 se integra a la Facultad de Ciencias Agropecuarias, donde continua con su arduo trabajo en la búsqueda de soluciones a los principales problemas que surgieron en la rama Agrícola y Pecuaria, obteniendo resultados relevantes. Posteriormente, en 1988 se reanuda la actividad del Centro como CIAP y en el año 2006 recibe la categoría de Centro de Investigación que otorga el CITMA. En la actualidad el CIAP realiza y trabaja en investigaciones científicas que contribuyen al Desarrollo Agropecuario Sostenible de la región central y el país. Siendo en la actualidad un centro muy comprometido con su historia y su futuro, formando especialistas y apoyando los resultados científicos de alto nivel."</string>
+    <string name="large_text_cidem">"El Centro de Investigación y desarrollo de las Estructuras y los Materiales (CIDEM) se encuentra integrado por un colectivo de 10 profesionales entre los cuales figuran Ingenieros Civiles, Ingenieros Mecánicos, Ingenieros Hidráulicos, Arquitectos y otros. 
+
+ Entre las principales líneas de trabajo se destacan la producción de materiales y el desarrollo de estructuras. El CIDEM interviene de manera directa en Proyectos de Investigación a escala internacional, adecuados a la innovación a través de servicios de alto valor agregado y la transferencia de tecnología, con impacto en el desarrollo de las naciones. 
+
+"</string>
+    <string name="large_text_cis">"El Centro de Investigaciones de Soldadura (CIS) se creó el 15 de junio de 1987, en la Universidad Central “Marta Abreu” de Las Villas, por decisión del estado y gobierno cubanos y orientado por el Comandante Pedro Miret Prieto, como un Órgano de Cabecera de Investigación Científica Aprobada (OCICA), para asesorar los trabajos de soldadura de la Central Electronuclear de Juraguá, Cienfuegos. Además, fue creado para promover y apoyar la utilización de la soldadura en el sector económico del país a través de la investigación aplicada, el desarrollo experimental y servicios científicos-técnicos y tecnológicos orientados a la industria metal-mecánica y ramas afines en un marco de competitividad. Desde entonces su quehacer se ha multiplicado y no sólo ha respondido a problemas de la CEN Juraguá, sino también de diversas industrias del país, así como a la formación de personal altamente calificado en el campo de la soldadura y materias afines. 
+ El CIS es un producto de la integración de profesores del Departamento de Procesos Tecnológicos de la Facultad de Ingeniería Mecánica, donde existía un desarrollo satisfactorio de la soldadura, el laboratorio científico de la soldadura, el grupo de investigación de la física de los metales, profesores del Departamento de Química dedicados al análisis químico de metales, así como profesores de la facultad de Ingeniería Eléctrica. Todo se hizo siguiendo la concepción del Instituto de Soldadura de Ucrania (Patón), que es un centro de excelencia en el campo de la soldadura a nivel mundial, aún en la actualidad."</string>
+    <string name="large_text_colegio">El Colegio Universitario ...</string>
+    <string name="large_text_fc">La Facultad de Construcciones de la Universidad Central \"Marta Abreu\" de las Villas cuenta con un colectivo de alto nivel científico y docente educativo. Tiene como misión la formación de profesionales integrales con una visión interdisciplinaria de la construcción y la educación, comprometidos con los ideales de la Revolución Cubana y las necesidades actuales del desarrollo sostenible del país en los sectores de la Arquitectura y el Urbanismo, la Ingeniería Civil, la Ingeniería Hidráulica y la Educación Superior en la especialidad de Construcción Civil.</string>
+    <string name="large_text_fca">"Los estudios de la Medicina Veterinaria en Cuba se iniciaron el 10 de Abril de 1907 en La Habana y en 1962 en la Universidad Central de Las Villas. Hoy la Carrera se denomina de Medicina Veterinaria y Zootecnia porque incorporó la producción animal como elemento consustancial del modelo profesional de la misma.
+        
+
+        La actual facultad incluye las carreras de Agronomía, Biología, Ingeniería Agrícola y Medicina Veterinaria y Zootecnia, además cuenta con el Centro de Investigaciones Agropecuarias (CIAP) y con el Jardín Botánico."</string>
+    <string name="large_text_fce">"La Escuela de Ciencias Comerciales fue la antecesora más lejana de la actual Facultad de Ciencias Económicas de la Universidad Central \"Marta Abreu\" de Las Villas (UCLV); Escuela que fuera fundada conjuntamente con la UCLV el 30 de noviembre del año 1952. De lo que se deduce que, como facultad fundadora, ésta tiene una larga historia en los ámbitos académicos, investigativos y extensionistas. 
+
+ En 1962 se inicia la formación de economistas en las especialidades de Economía Industrial, Economía Agrícola, Economía del Trabajo y Planificación en la Universidad de La Habana (UH). Paralelamente continuaron los estudios de Contaduría Pública en las tres universidades existentes en el país (UH, UO y UCLV). 
+
+ La apertura de la Licenciatura en economía se inicia en el curso 1969-70 y coincide históricamente con el proceso de rectificación de finales de los años sesenta. El 12 de enero de 1970 tiene lugar la apertura de la Carrera de Economía con la creación del Instituto de Economía de la UCLV, cuyo discurso inaugural estuvo a cargo del Dr. Carlos Rafael Rodríguez. 
+
+ El Instituto de Economía organizó las carreras de Licenciatura en Economía y Control Económico en el curso regular diurno, que incluyó con posterioridad los cursos para trabajadores nocturnos y por encuentros en Control Económico; esta última especialidad se convertiría, a partir de 1981, en Contabilidad, Finanzas y Precios. 
+
+ La Facultad de Ciencias Económicas nace con sus dos carreras de pregrado Licenciatura en Economía y Licenciatura en Contabilidad y Finanzas como carreras certificadas por la Junta Nacional de Acreditación de carreras."</string>
+    <string name="large_text_fcf">"El origen de este centro está ligado a la primera graduación de Licenciados en Cultura Física en el año 1977, y al hecho de ser la primera filial del Instituto Superior de Cultura Física \"Manuel Fajardo\". En 1984 se convirtió en Facultad. 
+ Como institución docente integra las actividades básicas de la Educación Superior Cubana: la formación del profesional, la investigación científica, la educación de postgrado y la extensión universitaria. 
+ La Facultad de Cultura Física de Villa Clara cuenta con los recursos humanos necesarios para dar el salto hacia la excelencia, pues agrupa a 182 profesores: de ellos, 14 son Doctores, 106 son Másteres y 2 son Especialistas. Además cuenta con 3 Profesores Titulares, 19 Profesores Auxiliares, 113 Asistentes y 47 Instructores. 
+ El 74% del potencial científico técnico está vinculado al Plan de Ciencia e Innovación Tecnológica mediante 17 proyectos de investigación desarrollo (I+D) o innovación tecnológica. 
+ Se ha considerado que los resultados relevantes en la Cultura Física y el Deporte alcanzados por la provincia de Villa Clara, son productos directos del trabajo docente-metodológico, científico y de superación que se desarrolla en esta institución. 
+ El \"Manuel Fajardo\" goza de un alto prestigio en la actividad de pregrado y postgrado, por lo que se considera de referencia en la red de centros del país, resulta meritoria además la actividad de las BTJ y de la dimensión medioambiental. En estos momentos cuenta con un Programa de Doctorado y da pasos firmes en el diseño y ejecución de Maestrías y Especialidades, así como en el proceso de la Universalización de la Enseñanza, lo que se consolida a pasos agigantados."</string>
+    <string name="large_text_fei" formatted="false">"La Facultad de Educación Infantil tiene la misión de formar licenciados en educación para los diferentes subsistemas de la Educación Infantil, a través de los procesos sustantivos universitarios, sobre la base de profundos valores éticos y pedagógicos para la dirección del proceso educativo, en correspondencia con los principios de la Revolución. 
+ Para contribuir a lograr dicha misión, la Facultad cuenta con 102 docentes de alta preparación política, metodológica, nivel científico y compromiso social que le permite desarrollar con calidad la labor instructiva y educativa, apoyados por 14 no docentes. De ellos el 23.5% ostentan el título de Doctor en Ciencias, 48.0 % son Máster. El 54.0% ostenta categorías docentes superiores. 
+ Cuatro de las carreras han sido acreditadas con la condición de Certificada por la Junta de Acreditación Nacional, ellas son: Licenciatura en Educación. Primaria en 2012, Licenciatura en Educación. Preescolar en 2013, Licenciatura en Educación. Logopedia en 2015 y Licenciatura en Educación. Pedagogía Psicología en 2016. 
+ Los trabajadores se organizan en cinco departamentos docentes (Educación Primaria, Educación Preescolar, Educación Especial, Educación Artística y Formación Pedagógica General). Los departamentos poseen la siguiente distribución: 
+     El Departamento de Educación Preescolar: integrado por 17 profesores (6 Doctores y 6 másteres). Encargado de la formación de los licenciados en Educación Preescolar y la superación de los profesionales que brindan atención a la Primera Infancia     El Departamento de Educación Artística: integrado por 17 profesores (1 Doctor y 6 másteres). Encargado de la formación de los licenciados en Educación Artística y la Licenciatura en Instructores de Arte; así como la superación de los profesionales que laboran en la esfera de la cultura.     El Departamento de Educación Especial: integrado por 20 profesores (6 Doctores y 7 másteres). Encargado de la formación de los licenciados en Educación: Especial y licenciados en Educación. Logopedia, así como de la superación de los docentes de cualquier nivel educativo con alumnos que presenten necesidades educativas especiales.     El Departamento de Educación Primaria: integrado por 20 profesores (3 Doctores y 15 másteres). Encargado de la formación de licenciados en Educación Primaria y de la superación de los maestros de este nivel educativo que se desempeñan en los diferentes contextos, con énfasis en el sector rural.     El departamento de Formación Pedagógica General: integrado por 28 profesores (8 Doctores y 18 másteres). Encargado de la formación del profesional en Pedagogía Psicología y de la formación pedagógica general de otras carreras pedagógicas. 
+ El personal no docente se encuentra ubicado en el departamento administrativo y la dirección de la facultad, realizando la labor de apoyo al desarrollo de las actividades. 
+ Desde el año 2007 la Facultad de Educación Infantil está incorporada a la Red de Escuelas Asociadas de la UNESCO. El principal objetivo es el de seguir los principios relacionados, entre otros temas, con la cultura, la paz, los derechos humanos, la igualdad entre las personas y el medio ambiente; todo lo cual contribuye a la formación integral de los futuros educadores. Así, los estudiantes y docentes de la facultad están integrados a los siguientes proyectos de la Red: 
+     Protección de las arenas     La ruta del esclavo. Romper el silencio     Patrimonio en manos de los jóvenes maestros     VIH Sida     Cultura de paz     La Lección más Grande del Mundo.     Lucha contra el Bullyng.     La Educación ambiental para el desarrollo sostenible del profesional de la educación 
+ La facultad cuenta también con tres Cátedras Honoríficas. Las mismas se encuentran dentro del proceso de extensión universitaria, que por su transversalidad contempla las actividades de investigación y docencia, contribuyendo a la formación de una cultura general y a la formación y desarrollo de valores de los miembros que integran la comunidad universitaria y su entorno. Estas Cátedras son: 
+     Cátedra de Salud y Sexualidad: Presidente: DrC. Martha Escalona Leiva     Cátedra Varela: Presidente: DrC. Selva Dolores Pérez Silva     Cátedra Mujer y Desarrollo: Presidente: Lic. Yaima Delgado González 
+ El Trabajo Comunitario se dirige a lograr una mejor calidad de vida en la población y a desarrollar la formación integral de los estudiantes insertándose en el proceso social con la aplicación de los conocimientos que van adquiriendo y sobre la base de una concepción humanista. Así, las acciones comunitarias se dirigen a: 
+ El departamento de Formación Pedagógica General, en el Gabinete de orientación educativa, ofrece servicios de orientación y asesoría educativa con el objetivo de potenciar los índices de desarrollo humano y calidad de vida de estudiantes, profesores y personal de la comunidad. 
+ El Gabinete de orientación se erige como espacio abierto. Cuenta con un equipo de profesionales preparados y entrenados en la asesoría a docentes para la realización de una de sus funciones esenciales: la de orientación educativa en el área del aprendizaje, en el control emocional, la reafirmación profesional, el desarrollo de habilidades comunicativas, la dinámica grupal, el manejo de su sexualidad, así como otros aspectos de su estado de salud, además de necesidades en el área familiar y comunitaria. Brinda un servicio de asesoría a los PPA y profesores en general, que permita una orientación preventiva en el área de los problemas educativos, teniendo como eje direccional los aprendizajes para la vida. 
+ El departamento de Educación Especial, en el Gabinete Logopédico, brinda atención especializada a niños, adolescentes y jóvenes con necesidades educativas especiales en la comunicación y el lenguaje. Además, como beneficiarios del proyecto internacional con términos de referencia, VLIR, se gestionan recursos y servicios para personas discapacitadas de la comunidad. 
+ Los docentes de Educación Preescolar, en la Ludoteca Comunitaria, brindan servicio a niños y familias del programa Educa a tu Hijo y a las instituciones educativas de la comunidad. De manera especial se reconocen las actividades realizadas con juegos de roles y el rescate de los juegos tradicionales. 
+ InteractuArte, es el proyecto cultural-comunitario que dirige Educación Artística y en el que se insertan estudiantes de todas las carreras de la Facultad. Las intervenciones comunitarias tienen fines didácticos y recreativos. Los resultados son mostrados a la comunidad en fechas significativas relacionadas con los derechos de los niños y las niñas, así como en conmemoraciones históricas. 
+ Por mucho tiempo los profesores de la Facultad han cumplido tareas de colaboración o misiones en el extranjero relacionadas con la alfabetización, la docencia, atención a maestrías y doctorados, convenios con el Ministerio de Salud Pública, también como miembros o coordinadores de proyectos educativos en países de América Latina (México, Venezuela, Honduras, Perú, Colombia, El Salvador, Panamá), el Caribe (Haití y Bahamas) y en África (Mozambique y Angola). De este grupo de profesores algunos han estado también incorporados a misiones de carácter nacional. 
+ Profesores de la facultad han sido galardonados, por la calidad y pertinencia social de sus resultados científicos e investigativos, con premios que otorga la Academia de Ciencias de Cuba, Premio al Mérito Científico por mayor aporte al desarrollo social y Premio María Teresa de Andrade, otorgado por la UNIH por los servicios bibliográficos. Además, se ostenta el reconocimiento por arbitraje internacional en revistas indexadas en la base de datos Scielo. 
+ La Revista Varela (http://revistavarela.uclv.edu.cu) publicada  en formato digital por la Facultad de Educación Infantil de la Universidad Central Marta Abreu de Las Villas, certificada por el Ministerio de Ciencia, Tecnología y Medio Ambiente (CITMA) e indexada en la base de datos DOAJ y en CLASE , LATINDEX, REDIB y ERICHPLUS, entre otras, trabaja en su afán por divulgar las producciones científicas derivadas de investigaciones e innovaciones de perfil pedagógico."</string>
+    <string name="large_text_fem" formatted="false">"Misión: 
+ Preservar, desarrollar y promover, a través de sus procesos sustantivos y en estrecho vínculo con la sociedad, la formación inicial y permanente de los profesionales de la Educación de la Facultad de Educación Media de manera integral y continua para dar respuesta a las necesidades educacionales en la provincia de Villa Clara y el mundo, en correspondencia con la Política Educacional del Partido y el Estado. 
+ Visión hasta el 2015: 
+     Se alcanza el desarrollo de la Facultad de Educación Media con la formación de profesionales de la educación, revolucionarios, marxistas, martianos y fidelistas, cultos y comprometidos con los principios de la Revolución, el Socialismo y la Política de la Educación Cubana. 
+     Se consolida el claustro de docentes y no docentes como fiel exponente de los principios revolucionarios, los valores patrios y el socialismo. 
+     Se consolida la comunidad universitaria como fiel exponente de los  principios revolucionarios. 
+     Se garantiza la cobertura presente y futura en los centros de Educación Media, de forma que posibilite la formación integral de estudiantes y formación permanente en las carreras de la Facultad de Educación Media. 
+     Se eleva el nivel científico y técnico a la altura de las exigencias del mundo actual y futuro. 
+     Se eleva la educación de postgrado y la preparación y superación satisfacen las necesidades de formación continua de los profesionales de la educación en la provincia y cuadros educacionales y reservas, con la calidad que demanda el desarrollo educacional y cultural del país y los compromisos internacionales.
+        
+
+         La actividad científica educacional es el pilar fundamental sobre el que se eleva de manera sostenida la calidad de los procesos de formación de los profesionales de la educación y de los niveles medios educacionales en la provincia de Villa Clara.
+         La cultura organizacional se caracteriza por el rechazo hacia cualquier tipo de manifestación de corrupción, ilegalidad, fraude, delito o vicio.
+        La Facultad de Educación Media (FEM) de la Universidad Central \"Martha Abreu\" de Las Villas surge en septiembre del 2015 a partir del proceso de integración de las universidades. En ella se unen los departamentos de las Facultades de Ciencias y Humanidades y el de Educación laboral e Informática de la Facultad de Educación Técnica y Profesional de la Universidad de Ciencias Pedagógicas (UCP) Félix Varela Morales.
+        Esta facultad, junto a la de Educación Infantil y a las de la sede central que gestionan carreras pedagógicas, dan continuidad a la amplia y fructífera trayectoria desarrollada por la UCP en la formación de profesionales de la educación, que tuvo su orígenes en el Instituto Pedagógico, creado el 3 de julio 1964, a partir de la Escuela de Pedagogía, dependencia de la Universidad Central de Las Villas.
+        La historia recoge cómo esta Escuela de Pedagogía, que se nutrió de los elementos más progresistas y la experiencia de los docentes comprometidos con la Revolución que no abandonaron las aulas universitarias, quedó indisolublemente vinculada a la memoria del Comandante Ernesto Guevara pues sus aulas sirvieron para acantonar parte de las tropas en ocasión de la histórica Batalla de Santa Clara. Con posterioridad, el claustro de dicha escuela le propuso al Consejo Universitario otorgar el título de Doctor Honoris Causa en Pedagogía al Guerrillero Heroico.
+        En los años sesenta los estudiantes y docentes como parte de la formación desarrollaron su práctica laboral por un año en la Sierra Maestra y se trabajó intensamente en la preparación del claustro docente de Topes de Collantes, además de asumir el perfeccionamiento de los planes de estudios, tareas productivas y de la defensa del país.
+        En abril de 1972, ante el llamado del Comandante en Jefe Fidel Castro Ruz se crearon las unidades docentes y pedagógicas para atender a los diferentes contingentes de jóvenes docentes, incluyendo los pertenecientes a Cienfuegos y Sancti Spíritus, surgió así el Destacamento Pedagógico Manuel Ascunce Domenech en nuestra provincia.
+        Con la reestructuración de la Educación Superior en el país, en el año 1976 los Institutos Pedagógicos pasan a ser instituciones universitarias independientes. Comienza una etapa del desarrollo del personal docente que se ha caracterizado por profundas transformaciones, se fortalece la formación humanista, el vínculo estudio trabajo, la actividad científica y extensionista y los planes de estudios dan respuesta a las transformaciones que van ocurriendo en las diferentes enseñanzas.
+        Es de destacar en todos estos años la presencia de personalidades que han prestigiado nuestro claustro como la Dra. Rosa María Angulo Díaz-Canel, profesora de Biología, a la que se le otorgó el grado científico en acto solemne en la Universidad de la Habana, autora de varios libros de texto, programas y otros materiales docentes de gran valor para el sistema educativo en nuestro país.
+        Los distintos planes de estudio por los que ha transitado la institución han propiciado la vinculación con el subsistema de Educación General Politécnica y Laboral, lo que constituyen una necesidad del desarrollo educacional, ya que desde el primer año, con aumento progresivo en los siguientes, se organizan los períodos de vínculo con la práctica escolar, proceso que ha tenido extraordinaria significación en los egresados y un impacto positivo en los territorios. Mención especial merece la creación y funcionamiento como primera experiencia en el país, de las Brigadas pedagógicas, que a partir del curso 1990-1991 se constituyeron en varios municipios de la provincia para enfrentar el déficit de profesores. De esta manera surge la Brigada Pedagógica de Corralillo, el contingente \"Seguidores de Manuel\" en Jibacoa, y posteriormente la Brigada Pedagógica en Isabela de Sagua y Santa Clara, en todos los casos fueron integradas por estudiantes, recién graduados y profesores del claustro universitario. Todas precursoras del actual Contingente \"Ernesto Ché Guevara\" integrado por estudiantes de las carreras pedagógicas y de otras carreras que se estudian en la sede central de la UCLV.
+        A esta experiencia se suma a partir del curso 2001-2002, la formación de contingentes de profesores del claustro y estudiantes que se incorporaron en distintos frentes; tal es el caso del Contingente para los preuniversitarios de Provincia Habana, contingente para la formación de Profesores Generales Integrales en la Salvador Allende, y más tarde varios Contingentes de estudiantes como Profesores Generales Integrales para las Secundarias Básicas de la capital, así como Contingente de profesores del claustro universitario para los preuniversitarios en el campo de Santa Clara y de estudiantes con docencia responsable para este municipio cabecera.
+        En la actualidad, la Facultad de Educación Media tiene catorce carreras que se gestionan en seis departamentos (tres de ellos multicarreras): Ciencias Exactas (multicarrera), Ciencias Naturales (multicarrera), Humanidades, Marxismo Leninismo e Historia, Lenguas Extranjeras, y Educación Laboral e Informática (multicarrera).
+        La facultad tiene una plantilla de 201 trabajadores (175 docentes y 26 no docentes). De los docentes, el 84% posee el título de Master o el grado de Doctor y 59% ostenta las categorías de Profesor Titular o Auxiliar.
+        Para llevar a cabo la dirección de los procesos se cuenta con 13 cuadros, un comité del PCC, el buró sindical, un comité UJC y el secretariado de la FEU.
+        La matrícula de la facultad es de 987 estudiantes, 378 del curso diurno, 435 del curso por encuentro y 174 del curso de nivel medio superior. Además existe un Colegio de grado 12 con 48 estudiantes.
+        Para el perfeccionamiento de la formación inicial se tienen en cuenta: el Programa integral de educación en valores, trabajo educativo, político ideológico y de enfrentamiento a la subversión, el sistema de trabajo metodológico, la validación de planes y programas de estudio, la superación profesional y académica, las acciones de investigación y los resultados científicos de los proyectos.
+        El trabajo realizado ha exigido un desarrollo profesional en nuestros docentes, una entrega incondicional y una profunda vocación pedagógica. En el claustro contamos con varios profesores que han obtenido numerosos reconocimientos y premios a nivel provincial, nacional e internacional.
+        Como resultado de este devenir histórico hoy estamos en mejores condiciones de enfrentar un proceso de evaluación y acreditación a favor de elevar la gestión y calidad de los procesos sustantivos universitarios acorde a los retos que implican los patrones de calidad existentes en Cuba."</string>
+    <string name="large_text_fh">"La  Facultad de Humanidades, comienza la tradición de los estudios humanísticos en este centro, al funcionar desde su primer curso académico, las Escuelas de Filosofía y Letras y de Idiomas Modernos, en la Sección correspondiente a los estudios de idioma ingles. 
+
+ A partir de entonces varios planes y programas de estudio y diferentes estructuras institucionales se han producido en el área de los estudios humanísticos en nuestra universidad, aunque el claustro y la carrera de Letras se han mantenido como núcleo central de toda esta actividad universitaria. La Facultad ha adoptado distintas denominaciones de acuerdo a su estructura y funciones. 
+
+ La Facultad de Humanidades  en mas de cincuenta años de ininterrumpida  labor como unidad académica universitaria, ha creado un sistema de formación y desarrollo en el área humanística en el contexto universitario, de significativa contribución en el conocimiento y transformación socio-cultural de nuestra nación cubana y muy particularmente de las actuales provincias centrales de Cuba. 
+
+ La Facultad de Humanidades tiene como misión formar a los profesionales de Letras, Lengua Inglesa, Comunicación Social y Periodismo de la región central de Cuba."</string>
+    <string name="large_text_fie">"La Escuela de Ing. Eléctrica se crea como parte de la Facultad de Ingeniería de la Universidad Central \"Marta Abreu\" de Las Villas. Las actividades docentes se inician el 30 de Noviembre de 1959, con las especialidades de  Electroenergética y Electrónica. En el año l960 la Facultad de Ingeniería pasa a nombrarse como  \"Facultad de Tecnología\". 
+
+ A partir del curso 1976-1977, es que formalmente nace la actual Facultad de Ing. Eléctrica, contando entonces con tres especialidades: Control Automático, Equipos y Componentes Electrónicos y Electroenergética. 
+
+ En la actualidad cuenta con las carreras de Control automático, Eléctrica y Telecomunicaciones y Electrónica."</string>
+    <string name="large_text_fimi">"La fundación de la  Facultad de Ingeniería Mecánica tiene su antecedente en la antigua Escuela de Ingeniería Mecánica que, a su vez, tuvo sus orígenes en la creación de la llamada \"Facultad de Ingeniería de la UCLV\" a finales del año 1959. El inicio de las actividades docentes de la carrera de Ingeniería Mecánica fue en el curso 1959-1960, iniciándose las clases en el mes de noviembre de ese propio año. 
+
+ El período de 1959 a l976 es considerado como la etapa fundacional de dicha Escuela, en que tuvieron sus inicios las actividades docentes de la carrera de Ing. Mecánica en la inicialmente denominada \"Escuela de Ingeniería Mecánica\" y que culmina con la creación, en el año 1976, de la Facultad de Ingeniería Mecánica. 
+
+ La Carrera de Ingeniería Industrial se inicia en un formato de Escuela dentro de la Facultad de Tecnología en 1962. En 1975 pasó a constituirse ella propia como Facultad de Ingeniería Industrial. 
+
+ La Facultad de Ingeniería Industrial y Turismo se funda el 19 de febrero del 2007. Esta facultad tiene a su cargo las carreras de Ingeniería Industrial y la Licenciatura en Turismo, carreras y centros con una historia distintiva que recién juntan su quehacer en un solo espacio de interacción. 
+
+ La actual Facultad de Ingeniería Mecánica e Industrial cuenta con las carreras de Ingeniería Mecánica e Ingeniería Industrial."</string>
+    <string name="large_text_fmfc">"En 1955 se abrió la carrera de doctorado en Ciencias Físico-matemáticas, cuyo plan de estudios  tenía el mismo corte clásico de la carrera homóloga que desde hacía años existía en la bicentenaria Universidad de La Habana. 
+
+ En 1961 se graduó el primer grupo de egresados de aquella carrera, varios de los cuales pasaron a ser profesores del centro. Por iniciativa de varios de ellos se creó, en el  año 1963, la Carrera de Licenciatura en Matemáticas, ya con contenidos curriculares basados en la llamada Matemática Moderna. 
+
+ Hasta 1962 los físicos y los matemáticos se formaban en la misma carrera, que era el doctorado en Ciencias Físico-matemáticas. 
+
+ Al abrirse la nueva carrera de Matemáticas, sólo para la formación de licenciados en Matemáticas, la formación de físicos había quedado suprimida, por lo que se hizo necesario pensar en la apertura de una carrera para la formación de licenciados en Física, que también eran muy necesaria. Por ello en el curso 1970-71 se abrió la carrera de licenciatura en Física. 
+
+ La Licenciatura en Ciencias de la Computación, comienza a partir del año 1967 en el que se pone en marcha nacionalmente el llamado plan Cálculo, encaminado a introducir en el país las técnicas de computación. Los primeros especialistas en computación que se formaron en el país, se graduaron con el título de licenciados en Matemáticas ya que unido a las tres especializaciones que existían en la carrera de licenciatura en Matemáticas se unió la de Computación, la cual poseía en su plan de estudios un perfil orientado hacia la formación de profesionales en esta área. 
+
+ Con el tiempo aquella especialización, dentro de la carrera de Matemáticas, se fue convirtiendo  en una carrera con un perfil propio, hasta que ya se aprobó oficialmente con el nombre de Licenciatura en Computación y más  tarde tomó el nombre de Licenciatura en Cibernética Matemática, siendo sus primeros graduados los del año 1978.  Más tarde, con algunos cambios en los planes de estudios, pasó a llamarse Licenciatura en Ciencias de la Computación. 
+
+ La actual Facultad de Matemática,  Física y Computación comprende las carreras de Licenciatura en Matemáticas, Licenciatura en Física, Licenciatura en Ciencias de la Computación, Ingeniería Informática y Licenciatura en Ciencias de la Información."</string>
+    <string name="large_text_fqf">"La Escuela de  Ing. Química Industrial y la Escuela de Perito Químico Azucarero, funcionaban desde la fundación de la Universidad en el año 1952, posteriormente pasan a formar parte de la Facultad de Ingeniería de la Universidad Central \"Marta Abreu\" de Las Villas, quien en el año 1960 pasa a nombrarse como  \"Facultad de Tecnología\". 
+
+ La Facultad de Química y Farmacia fue fundada el 30 de enero de 1989 a partir de la incorporación de las carreras de Licenciatura en Ciencias Químicas y Licenciatura en Ciencias Farmacéuticas a la Facultad de Ingeniería Química por reforma institucional.  Esta integración permite un enfoque multidisciplinario más integral en el orden docente e investigativo. 
+
+ En esta Facultad se estudian las carreras de Ingeniería Química, Licenciatura en Química  y Licenciatura en Ciencias Farmacéuticas. La carrera de Ingeniería Química es fundadora de la Universidad Central de Las Villas, se estudia desde 1952. La carrera de Licenciatura en Ciencias Químicas se estudia desde 1963. La carrera de Licenciatura en Ciencias Farmacéuticas es la más joven de la Facultad (1984)."</string>
+    <string name="large_text_ibp">"El Instituto de Biotecnología de las Plantas (IBP) de la Universidad Central \"Marta Abreu\" de Las Villas pertenece al Ministerio de Educación Superior de la República de Cuba. Fue fundado el 19 de noviembre de 1992. El IBP surgió a partir de los resultados científicos del Colectivo de Mejora Genética de la Facultad de Ciencias Agropecuarias donde se iniciaron los estudios en biotecnología vegetal en la década del 80 del siglo XX. 
+ El Instituto de Biotecnología de las Plantas (IBP) desarrolla investigaciones básicas, aplicadas y de innovación (I+D+i) para la propagación y mejora genética de plantas con el empleo de técnicas biotecnológicas. El Instituto tiene la misión de realizar una relevante actividad científica y tecnológica, respaldada por la superación permanente de sus investigadores y trabajadores en la esfera de la Biotecnología Vegetal. Se caracteriza por la generación, difusión y transferencia de conocimientos, tecnologías, productos y servicios de alto valor agregado, reconocido impacto, competitivos y alineados a las políticas y estrategias nacionales. Sus investigadores siguen el principio de conducir los resultados científicos desde el laboratorio hasta el campo. 
+ Posee personal altamente calificado para conformar equipos multidisciplinarios enfocados a garantizar la obtención de resultados de alto valor científico. El equipo de investigación cuenta con más del 70 por ciento de sus investigadores con grado científico de Doctor en Ciencias específicas y más del 80 por ciento de los técnicos de laboratorio con el grado académico de Máster en Ciencias. Biotecnólogos, mejoradores, fitopatólogos, fitotecnistas, biólogos moleculares y productores se unen en aras de hacer ciencia y tecnología para desarrollar una agricultura sostenible, con especial énfasis en el sistema de gestión integrada de la calidad."</string>
+    <string name="large_text_jardin">El Centro de Estudios Jardín Botánico de Villa Clara fue fundado en el 2003. Cuenta con una edificación con locales y tecnología para el desarrollo de las actividades científicas y académicas, un arboretum de diez hectáreas con unas 700 especies vegetales, y el tercer herbario en importancia del país con 26 205 números de materiales de diferentes series que incluyen 96 materiales tipos. Las líneas de investigación que se desarrollan en el centro son: \"Conservación de especies amenazadas y de interés\", \"Educación ambiental para la conservación\", \"Estudio de la biodiversidad y uso sostenible de fitorrecursos\" y \"Taxonomía vegetal\".</string>
+    <string name="large_text_sociales">"En la Facultad de Ciencias Sociales existen cinco carreras: Psicología, Derecho, Filosofía, Sociología y Gestión Sociocultural para el Desarrollo. Las carreras Psicología y Derecho se encuentran acreditadas de excelencia. 
+
+ La fundación de la Escuela de Psicología en la UCLV fue el 17 de noviembre del año 1959. Inicialmente fue creada en los marcos de la facultad de Humanidades-Educación, no abrió su matrícula hasta los inicios del año siguiente, 1960. 
+
+ No es hasta 1974 que se crea una filial de la carrera de Derecho de la Universidad de La Habana en la antigua provincia de Las Villas, a fin de formar licenciados en Derecho en la modalidad semipresencial de cursos por encuentro. 
+
+ En septiembre de 1976 se crea el Departamento de Derecho adscrito a la Facultad de Filología, iniciándose el primer grupo del curso regular diurno con alumnos de las tres provincias centrales, Villa Clara, Cienfuegos y Sancti-Spíritus. 
+
+"</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="text_activity_fc_ing_civil">El ingeniero civil es el profesional universitario cuyo objetivo fundamental de trabajo es la producción de construcciones. Esta producción comprende el planeamiento, la proyección, el diseño, la construcción, el mantenimiento, la reparación, la investigación y la dirección de la ejecución de las obras estructurales: edificios, puentes, complejos industriales, obras viales, carreteras y vías férreas, entre otras.</string>
+    <string name="text_activity_fc_ing_hidraulica">Como futuro profesional de esta rama, tu labor tendrá como objetivo fundamental la explotación racional de los recursos hidráulicos. Tendrás a tu cargo la conservación sistemática y la construcción de nuevos sistemas de acueductos alcantarillado, el aprovechamiento racional de los recursos hidráulicos, los sistemas de control de inundaciones, los sistemas de tratamiento de residuales y la distribución racional de agua en los edificios y ciudades.</string>
+    <string name="text_activity_fc_lic_arquitectura">Como profesional de esta rama serás el principal encargado de la creación de un entorno confortable en ambientes exteriores e interiores. El arquitecto es un profesional de perfil amplio. Figuran entre sus principales desempeños: trabajar a pie de obra como constructor, como proyectista de obras de arquitectura, en el mantenimiento y rehabilitación de edificios, así como inversionista de obras de arquitectura. Proyectar y construir son actividades que se insertarán en su quehacer laboral, vinculadas con el paisajismo, la decoración y el diseño del mobiliario.</string>
+    <string name="text_activity_fc_lic_civil">La Licenciatura en Educación en la especialidad de Construcción Civil garantiza la formación de profesores para trabajar en los centros de la Educación Técnica y Profesional.</string>
+    <string name="text_activity_fca_ing_agricola">El ingeniero agrícola, es un profesional de perfil amplio formado sobre una sólida base científica, técnica y humanista, capaz de administrar los sistemas de ingeniería agrícola y mantener su capacidad de trabajo. Además, se prepara para ejecutar las principales actividades inherentes a los sistemas de ingeniería, referidos a la realización y evaluación de los procesos tecnológicos y biotecnológicos de la producción agropecuaria sostenible en sus eslabones de base.</string>
+    <string name="text_activity_fca_lic_agronomia">La dirección de la producción agropecuaria que tiene como objetivo la obtención de alimentos y materias primas tanto de origen vegetal como animal, constituye una de las principales tareas que llevarás a cabo como profesional. Estarás capacitado para ejercer la dirección integral del proceso de producción, logrando el máximo rendimiento por unidad de área, la mayor calidad y el menor costo en las condiciones específicas década lugar. La ciencia agropecuaria se apoya en las ciencias exactas, biológicas y técnicas, así como en la economía, la planificación, la cibernética y otras.</string>
+    <string name="text_activity_fca_lic_biologia">Realizarás estudios no sólo de los seres vivos, sino también de los fundamentos químicos, químico-físicos y físicos de los mecanismos y procesos biológicos. El estudio de los seres vivos, plantas y animales, tanto en su medio natural como en condiciones controladas de laboratorio, son actividades propias de esta profesión.</string>
+    <string name="text_activity_fca_lic_veterinaria">Garantizar la salud animal y el proceso productivo son actividades para las cuales te encuentras preparado como médico veterinario, con el objetivo de lograr alimentos de alta calidad biológica y sanitaria con la máxima economía. Otro aspecto de interés para esta profesión es la prevención de las enfermedades, por lo que debe mantenerse un control estricto en nuestras fronteras oficiales, puertos y aeropuertos, impidiendo la entrada de enfermedades que no se padecen en nuestro territorio nacional.</string>
+    <string name="text_activity_fce_lic_economia">Profesional capaz de proyectar hacia el futuro los costos de producción, así como organizar y controlar los procesos técnicos y sus costos desde la posición de búsqueda de máxima eficiencia económica, con amplia visión de la economía nacional e internacional. Podrás valorar la importancia que tienen en la actualidad los aspectos que inciden en la eficiencia yen el proceso de perfeccionamiento empresarial, y su repercusión para la economía del país</string>
+    <string name="text_activity_fce_lic_educacion_economia">La Licenciatura en Educación Economía garantiza la formación de profesores para trabajar en los centros de la Educación Técnica y Profesional.</string>
+    <string name="text_activity_fce_lic_finanzas">Como profesional de esta rama, serás capaz de dar respuesta idónea y oportuna a todos los niveles de información económica y financiera, para tomar decisiones, cumplir obligaciones, ejercer control sobre los bienes, derechos y patrimonios de las empresas. Además, contarás con conocimientos amplios de las técnicas contables, el cálculo de los costos, la implantación de los sistemas de contabilidad y costos, las auditorias y los análisis económicos y financieros.</string>
+    <string name="text_activity_fce_lic_turismo">Su objeto de trabajo está constituido en lo fundamental por los procesos de desarrollo, gestión y comercialización de los productos turísticos (atractivos, viajes, entidades y territorios) que se llevan a cabo en el sector de turismo y en el sistema de interrelaciones que ellos generan. Adquirirás una cultura general y conocimientos para la apreciación artística, dominio adecuado del patrimonio de la nación, así como de la geografía turística nacional. Todo ello unido a la sensibilidad sobre el tema medioambiental y conocimientos adecuados para ser un buen interlocutor con los especialistas del ramo. Por otra parte, la sólida preparación en idioma inglés y en un segundo idioma, te permitirá trabajar como informador y como guía turístico. También estudiarás contenidos relacionados con la comprensión, colaboración e interpretación de las actividades legales (obligaciones y contratos mercantiles), contables, financieras, de recursos laborales, informáticas, de almacenamiento de mercancías, de venta de productos a turistas, así como para tener una debida interlocución con especialistas de estas materias.</string>
+    <string name="text_activity_fcs_lic_derecho">El sistema jurídico de nuestro país constituye un todo armónico, democrático, estrechamente vinculado con las masas, capaz de servir a los fines de la justicia socialista y a la elevación de la conciencia jurídica de nuestra ciudadanía. Tan nobles fines demandan de ti, como jurista, un alto nivel técnico-profesional y una cabal conciencia política, revolucionaria, de clase. Tu actividad como profesional del derecho socialista es servir cada vez más eficientemente a los intereses de nuestra sociedad. En esto radica tu tarea más importante.</string>
+    <string name="text_activity_fcs_lic_filosofia">Este profesional debe poseer una amplia cultura filosófica y científico-social, que le permita insertarse creadoramente en la lucha de las ideas que caracterizan al mundo contemporáneo desde posiciones revolucionarias. Su labor fundamental está dirigida a la interpretación de los procesos de producción y reproducción de la vida social y el sistema de interrelaciones que ellos generan. En estos procesos, el elemento esencial lo constituye la interacción del hombre con el resto del mundo.</string>
+    <string name="text_activity_fcs_lic_psicologia">Como psicólogo estudiarás al ser humano como individualidad y como parte del colectivo, actuando de manera directa en la transformación de la vida. En esta labor establecerás una colaboración dinámica con distintos especialistas: médicos, economistas, sociólogos, maestros y otros. Esto requiere que poseas un alto nivel técnico, creatividad en tu trabajo y capacidad para llevar a cabo una labor educativa específica en el seno de la sociedad socialista.</string>
+    <string name="text_activity_fcs_lic_sociocultural">Esta carrera integra una serie de conocimientos relacionados con la Historia del Arte, la Sociología y las Ciencias Sociales. El objeto de trabajo de este profesional se vincula con el trabajo sociocultural comunitario, asesorías, promoción, animación, gestión cultural y turística. Las acciones de intervención sociocultural son capaces de convertir cualquier centro laboral, barrio, comunidad o cooperativa en un espacio de socialización de la cultura. Estas acciones distinguen, entre otras, el desempeño de este profesional.</string>
+    <string name="text_activity_fcs_lic_sociologia">El sociólogo tiene como objeto de estudio «la sociedad» en su complejidad y heterogeneidad. El sociólogo está capacitado para diagnosticar, evaluar, pronosticar y contribuir a la solución de problemas sociales, así como participar en la toma de decisiones y en el diseño de alternativas de cambios sociales a diferentes escalas y esferas de lo social. El principal modo de actuación del sociólogo es la investigación, sobre bases marxistas leninistas, en forma integral y crítica de los procesos sociales que ocurren en las clases, grupos, instituciones y territorios.</string>
+    <string name="text_activity_fh_lic_comunicacion">El comunicador social está dotado de una formación integral en que lo técnico, político, económico y cultural le permiten perfeccionar los procesos de comunicación en las diferentes organizaciones de masas y políticas, empresas, y en instituciones y comunidades. La influencia que puede tener un mensaje en los diferentes ámbitos y el lograr que llegue a todos, que permita su descodificación es una de las tareas que resulta de vital importancia en la actualidad.</string>
+    <string name="text_activity_fh_lic_lenguas">Si piensas seleccionar esta carrera debes tener aptitudes para el aprendizaje de lenguas extranjeras y un buen dominio de la lengua española. Durante su estudio desarrollarás de manera armónica e integral las cuatro habilidades básicas de la actividad verbal: expresión oral, expresión escrita, comprensión de lectura y comprensión auditiva, que te permitan desarrollar las habilidades profesionales necesarias para la utilización de dicha lengua.</string>
+    <string name="text_activity_fh_lic_letras">Como profesional de las letras deberás poseer vastos conocimientos en el campo de la cultura con especial énfasis en la literatura y la lingüística. Serás un promotor cultural que indaga en su lengua y en la literatura nacional, sin perder los vínculos con las lenguas clásicas y la literatura universal.</string>
+    <string name="text_activity_fh_lic_periodismo">El periodismo abarca un campo particular de la comunicación que incluye el proceso de producción, difusión e intercambio de información entre los hombres .Para ejercer esta profesión debes vivir muy al tanto de los problemas de tu tiempo, como autor y protagonista de los grandes acontecimientos que se viven actualmente en el mundo. Tu formación como periodista exige una rigurosa preparación desde el punto de vista político, ideológico, cultural y técnico-profesional, que te capacite para el desarrollo de tareas específicas en la organización y movilización de las masas.</string>
+    <string name="text_activity_fie_ing_automatica">Hoy, el nivel de desarrollo industrial de una nación no sólo se mide por el número de industrias sino por las técnicas empleadas en ellas. Son partes fundamentales de la automatización, la instrumentación y los sistemas de control utilizados, estrechamente ligados a todo lo relacionado con la computación y, en particular, con el hardware de las máquinas computadoras. El ingeniero en Automática tiene como labor principal la explotación de los sistemas de instrumentación y control.</string>
+    <string name="text_activity_fie_ing_electrica">Los medios electrotécnicos (equipos, instalaciones y sistemas) empleados en la generación, transmisión, distribución y utilización de la energía eléctrica, son parte fundamental de tu objeto de trabajo como profesional. Las actividades más importantes que realizarás como ingeniero eléctrico son: la proyección, explotación, selección y reparación de plantas generadoras de energía, redes eléctricas de cualquier nivel de voltaje considerando también las subestaciones eléctricas, medios de protección de sistemas electro-energéticos y accionamientos eléctricos de cargas mecánicas industriales.</string>
+    <string name="text_activity_fie_ing_tele">Los sistemas de telecomunicación que permiten la transmisión de la información, utilizando las técnicas más apropiadas, serán tu objeto de trabajo fundamental. Por el desarrollo alcanzado, la electrónica está presente en todas las ramas de la ciencia, la técnica y, en particular, en las telecomunicaciones, siendo de vital importancia su estudio y conocimiento para tu futuro desempeño profesional.</string>
+    <string name="text_activity_fie_lic_electrica">La Licenciatura en Educación Eléctrica garantiza la formación de profesores para trabajar en los centros de la Educación Técnica y Profesional.</string>
+    <string name="text_activity_fimi_ing_industrial">De acuerdo con la entidad donde trabajes, puedes dedicarte al diseño y operación de los sistemas base o funcionalmente como ingeniero encargado, por ejemplo, de la organización de la producción, transportación y los servicios de protección e higiene del trabajo. Cuando el sistema es muy simple resulta relativamente fácil organizar su funcionamiento, pero al aumentar su complejidad es necesario utilizar técnicas muy especializadas, garantizando los requisitos de eficiencia y calidad con el mínimo de recursos, es aquí donde se inserta tu labor como ingeniero industrial.</string>
+    <string name="text_activity_fimi_ing_mecanica">Las máquinas, equipos e instalaciones industriales serán tu base de trabajo fundamental como ingeniero mecánico, así como su construcción, proyección y explotación con calidad, eficiencia y mínimos costos. Como ingeniero mecánico tienes la oportunidad de vincularte a las diferentes esferas de los procesos industriales, los procesos de producción de piezas y máquinas, los procesos de transformación y utilización de la energía y las máquinas automotrices.</string>
+    <string name="text_activity_fmfc_ing_informatica">La automatización de los sistemas de información en organismos y empresas constituye una de las tareas fundamentales del ingeniero en Informática. Como profesional de esta rama te encuentras capacitado para el procesamiento automatizado de la información técnica, que se ocupa de los procesos de captación, transmisión, almacenamiento, tratamiento y presentación de la información mediante el uso eficiente de las computadoras y otros medios técnicos</string>
+    <string name="text_activity_fmfc_lic_computacion">Una de las principales tareas como licenciado en esta rama es el desarrollo, la utilización y el control, de forma eficiente, de las capacidades de una computadora como sistema receptor, organizador, recuperador, procesador y suministrador de información. Como profesional no construyes computadoras —aunque sí intervienes en su diseño—, pues tu tarea fundamental es desarrollar al máximo las capacidades potenciales que tiene la máquina ya construida para realizar los procesos de información .Nuestro país realiza un importante trabajo en la rama de la cibernética que comprende desde la construcción de minicomputadoras hasta su aplicación en mayor medida en las esferas anteriormente mencionadas, por lo que se requiere de una adecuada preparación profesional.</string>
+    <string name="text_activity_fmfc_lic_fisica">En todas las esferas de la vida moderna existe una creciente penetración de los resultados, métodos y técnicas experimentales de la física. Esto está determinado por la amplitud de dicha ciencia, pues incluye el estudio de fenómenos desde la escala del micromundo hasta la del universo en su conjunto. Será creciente tu participación como físico junto a otros profesionales en áreas interdisciplinarias y de aplicación tales como la Física Química, Ciencias de Materiales, Metalurgia, Micro y Optoelectrónica, Aplicaciones del láser, Computación y Automatización, etcétera.</string>
+    <string name="text_activity_fmfc_lic_informacion">Este profesional tiene como objeto de trabajo la información, refiriéndose específicamente a las fuentes y necesidades de la información, los flujos que generan sus portadores, los procesos que intervienen en estos, así como las leyes y principios que lo rigen. Además, poseerás un amplio conocimiento de las técnicas más modernas de planificación, organización y control de los fondos documentarios. Con empleo de la computación, modelos matemáticos y conocimientos de lenguas extranjeras y lingüística, establecerás una comunicación efectiva con la ciencia moderna.</string>
+    <string name="text_activity_fmfc_lic_matematica">Con el extraordinario auge de las máquinas computadoras se ha incentivado el proceso de matematización de la ciencia, la técnica y la economía, requiriéndose de un profesional altamente capacitado en la rama. La aplicación de las técnicas matemáticas está íntimamente relacionada con la construcción de los modelos matemáticos de los fenómenos y objetos estudiados, y con la creación de los procedimientos de cálculo numérico que permitan la utilización práctica de los resultados.</string>
+    <string name="text_activity_fqf_ing_quimica">La labor profesional del ingeniero químico tiene como propósito la producción de productos químicos y bioquímicos con la calidad requerida y al costo más bajo posible. Esta producción se logra por medio de operaciones industriales que, en general, están formadas por una secuencia de transformaciones físicas, químicas y bioquímicas que, en su conjunto, constituyen un proceso.</string>
+    <string name="text_activity_fqf_lic_farmacia">Como profesional de la rama de las ciencias farmacéuticas serás el principal encargado de abordar científicamente todo lo relacionado con los medicamentos, tanto en las actividades propias de producción como su uso, para lo cual trabajarás conjuntamente con el cuerpo médico. Como estudiante de esta carrera debes tener una fuerte motivación para introducirte en el vasto mundo de problemas que surgen desde la concepción de un medicamento hasta su aplicación.</string>
+    <string name="text_activity_fqf_lic_quimica">El interés por las ciencias naturales y en especial por la química, incluyendo la inclinación hacia la investigación y la experimentación, son inherentes y fundamentales en el estudio de esta carrera. Además, debes llegar a conocer las sustancias y sus transformaciones a nivel molecular, pues este constituye el objeto de trabajo fundamental del químico. Como licenciado en Química puedes desarrollar múltiples funciones relacionadas con la investigación aplicada y de desarrollo. Tareas de síntesis de los más diversos compuestos, de control químico, tanto de laboratorios como de procesos, utilizando, adaptando o diseñando métodos analíticos o químico-físicos, clásicos o instrumentales, serán partes importantes de tu vida profesional.</string>
+    <string name="title_activity_cbq">Centro de Bioactivos Químicos (CBQ)</string>
+    <string name="title_activity_cec">Centro de Estudios Comunitarios (CEC)</string>
+    <string name="title_activity_cecfd">Centro de Estudio de Cultura Física y Deporte (CECFD)</string>
+    <string name="title_activity_ced">Centro de Estudio de Dirección (CED)</string>
+    <string name="title_activity_cee">Centro de Estudio de Electroenergética (CEE)</string>
+    <string name="title_activity_ceed">Centro de Estudio de Educación (CEED)</string>
+    <string name="title_activity_cei">Centro de Investigaciones Informáticas (CII)</string>
+    <string name="title_activity_cejb">Centro de Estudio del Jardín Botánico (CEJB)</string>
+    <string name="title_activity_cemni">El Centro de Estudios de Métodos Computacionales y Numéricos en la Ingeniería (CEMNI)</string>
+    <string name="title_activity_ceqa">Centro de Estudio de Química Aplicada (CEQA)</string>
+    <string name="title_activity_ceta">Centro de Estudio Energéticos y Tecnologías Ambientales (CEETA)</string>
+    <string name="title_activity_ciap">Centro de Investigaciones Agropecuaria (CIAP)</string>
+    <string name="title_activity_cidem">El Centro de Investigación y desarrollo de las Estructuras y los Materiales (CIDEM)</string>
+    <string name="title_activity_cis">Centro de Investigaciones de Soldadura (CIS)</string>
+    <string name="title_activity_colegio">Colegio Universitario</string>
+    <string name="title_activity_colegio_menu">Colegio Universitario</string>
+    <string name="title_activity_fc">Facultad de Construcciones (FC)</string>
+    <string name="title_activity_fc_ing_civil">" "<b>Ingeniería Civil</b>"
+"</string>
+    <string name="title_activity_fc_ing_hidraulica">" "<b>Ingeniería Hidráulica</b>"
+"</string>
+    <string name="title_activity_fc_lic_arquitectura">" "<b>Arquitectura y el Urbanismo</b>"
+"</string>
+    <string name="title_activity_fc_lic_civil">" "<b>Licenciatura en Educación en la especialidad de Construcción Civil</b>"
+"</string>
+    <string name="title_activity_fc_menu">Fac. de Construcciones (FC)</string>
+    <string name="title_activity_fca">Facultad de Ciencias Agropecuarias (FCA)</string>
+    <string name="title_activity_fca_ing_agricola">" "<b>Ingeniería Agrícola</b>"
+"</string>
+    <string name="title_activity_fca_lic_agronomia">" "<b>Licenciatura en Agronomía</b>"
+"</string>
+    <string name="title_activity_fca_lic_biologia">" "<b>Licenciatura en Biología</b>"
+"</string>
+    <string name="title_activity_fca_lic_veterinaria">" "<b>Licenciatura en Medicina Veterinaria y Zootecnia</b>"
+"</string>
+    <string name="title_activity_fca_menu">Fac. Ciencias Agropecuarias (FCA)</string>
+    <string name="title_activity_fce">Facultad de Ciencias Económicas (FCE)</string>
+    <string name="title_activity_fce_lic_economia">" "<b>Licenciatura en Economía</b>"
+"</string>
+    <string name="title_activity_fce_lic_educacion_economia">" "<b>Licenciatura en Educación Economía</b>"
+"</string>
+    <string name="title_activity_fce_lic_finanzas">" "<b>Licenciatura en Finanzas y Precios</b>"
+"</string>
+    <string name="title_activity_fce_lic_turismo">" "<b>Licenciatura en Turismo</b>"
+"</string>
+    <string name="title_activity_fce_menu">Fac. Ciencias Económicas (FCE)</string>
+    <string name="title_activity_fcf">Facultad de Cultura Física (FCF)</string>
+    <string name="title_activity_fcf_menu">Fac. Cultura Física (FCF)</string>
+    <string name="title_activity_fcs">Facultad de Ciencias Sociales (FSC)</string>
+    <string name="title_activity_fcs_lic_derecho">" "<b>Licenciatura en Derecho</b>"
+"</string>
+    <string name="title_activity_fcs_lic_filosofia">" "<b>Licenciatura en Filosofía</b>"
+"</string>
+    <string name="title_activity_fcs_lic_psicologia">" "<b>Licenciatura en Psicología</b>"
+"</string>
+    <string name="title_activity_fcs_lic_sociocultural">" "<b>Gestión Sociocultural para el Desarrollo</b>"
+"</string>
+    <string name="title_activity_fcs_lic_sociologia">" "<b>Licenciatura en Sociología</b>"
+"</string>
+    <string name="title_activity_fcs_menu">Fac. Ciencias Sociales (FSC)</string>
+    <string name="title_activity_fei">Facultad de Educación Infantil (FEI)</string>
+    <string name="title_activity_fei_menu">Fac. Educación Infantil (FEI)</string>
+    <string name="title_activity_fem">Facultad de Educación Media (FEM)</string>
+    <string name="title_activity_fem_menu">Fac. Educación Media (FEM)</string>
+    <string name="title_activity_fh">Facultad de Humanidades (FH)</string>
+    <string name="title_activity_fh_lic_comunicacion">" "<b>Comunicación Social</b>"
+"</string>
+    <string name="title_activity_fh_lic_lenguas">" "<b>Licenciaturas en Lengua Inglesa</b>"
+"</string>
+    <string name="title_activity_fh_lic_letras">" "<b>Licenciaturas en Letras</b>"
+"</string>
+    <string name="title_activity_fh_lic_periodismo">" "<b>Periodismo</b>"
+"</string>
+    <string name="title_activity_fh_menu">Fac. Humanidades (FH)</string>
+    <string name="title_activity_fhcs">Fac. Humanidades - Ciencias Sociales</string>
+    <string name="title_activity_fie">Facultad de Ingeniería Eléctrica (FIE)</string>
+    <string name="title_activity_fie_ing_automatica">" "<b>Ingeniería en Automática</b>"
+"</string>
+    <string name="title_activity_fie_ing_electrica">" "<b>Ingeniería Eléctrica</b>"
+"</string>
+    <string name="title_activity_fie_ing_tele">" "<b>Ingeniería en Telecomunicaciones y Electrónica</b>"
+"</string>
+    <string name="title_activity_fie_lic_electrica">" "<b>Licenciatura en Educación Eléctrica</b>"
+"</string>
+    <string name="title_activity_fie_menu">Fac. Ing. Eléctrica (FIE)</string>
+    <string name="title_activity_fimi">Facultad de Ingeniería Mecánica e Industrial (FIMI)</string>
+    <string name="title_activity_fimi_ing_industrial">" "<b>Ingeniería Industrial</b>"
+"</string>
+    <string name="title_activity_fimi_ing_mecanica">" "<b>Ingeniería en Mecánica</b>"
+"</string>
+    <string name="title_activity_fimi_menu">Fac. Ing. Mecánica e Industrial (FIMI)</string>
+    <string name="title_activity_fimifq">Fac. Ing. Mec. e Industrial - Quím. Farmacia</string>
+    <string name="title_activity_fmfc">Facultad de Matemática Física Computación (FMFC)</string>
+    <string name="title_activity_fmfc_ing_informatica">" "<b>Ingeniería Informática</b>"
+"</string>
+    <string name="title_activity_fmfc_lic_computacion">" "<b>Licenciatura en Ciencias de la Computación</b>"
+"</string>
+    <string name="title_activity_fmfc_lic_fisica">" "<b>Licenciatura en Física</b>"
+"</string>
+    <string name="title_activity_fmfc_lic_informacion">" "<b>Licenciatura en Ciencias de la Información</b>"
+"</string>
+    <string name="title_activity_fmfc_lic_matematica">" "<b>Licenciatura en Matemática</b>"
+"</string>
+    <string name="title_activity_fmfc_menu">Fac. Mat. Física Computación (FMFC)</string>
+    <string name="title_activity_fqf">Facultad de Química Farmacia (FQF)</string>
+    <string name="title_activity_fqf_ing_quimica">" "<b>Igeniería Química</b>"
+"</string>
+    <string name="title_activity_fqf_lic_farmacia">" "<b>Licenciatura en Ciencias Farmaceuticas</b>"
+"</string>
+    <string name="title_activity_fqf_lic_quimica">" "<b>Licenciatura en Química</b>"
+"</string>
+    <string name="title_activity_fqf_menu">Fac. Química Farmacia (FQF)</string>
+    <string name="title_activity_ibp">Instituto de Biotecnología de las Plantas (IBP)</string>
+    <string name="title_activity_jardin">Jardin Botánico de la Universidad</string>
+    <string name="title_dialog_areas_dep">Areas deportivas de la universidad</string>
+    <string name="title_dialog_biblioteca">Biblioteca</string>
+    <string name="title_dialog_casafeu">Casa estudiantil de la FEU</string>
+    <string name="title_dialog_cent_est_direccion">Centro de Estudio de Dirección</string>
+    <string name="title_dialog_centralito">Centralito</string>
+    <string name="title_dialog_comedor">Comedor Central</string>
+    <string name="title_dialog_comedor_camilito">Comedor obrero</string>
+    <string name="title_dialog_comunicacion">Comunicación</string>
+    <string name="title_dialog_coronado">Coronado</string>
+    <string name="title_dialog_fbasque" />
+    <string name="title_dialog_ffootball" />
+    <string name="title_dialog_fpiscina" />
+    <string name="title_dialog_fsalahistoria" />
+    <string name="title_dialog_ftenis" />
+    <string name="title_dialog_hotelito">Hotel los Sauces</string>
+    <string name="title_dialog_ingreso">Ingreso</string>
+    <string name="title_dialog_jardinbambu">Área bambú</string>
+    <string name="title_dialog_panaderia">Panadería</string>
+    <string name="title_dialog_paneles">Paneles solares</string>
+    <string name="title_dialog_pmano" />
+    <string name="title_dialog_pmural" />
+    <string name="title_dialog_policlinico">Policlínico Universitario</string>
+    <string name="title_dialog_ppared" />
+    <string name="title_dialog_pteatro" />
+    <string name="title_dialog_pvarela" />
+    <string name="title_dialog_rec_hum">Recursos Humanos</string>
+    <string name="title_dialog_rectorado">Rectorado</string>
+    <string name="title_dialog_rel_int">Dirección de Internacionalización</string>
+    <string name="title_dialog_res_est_900">Residencia estudiantil</string>
+    <string name="title_dialog_res_est_camilito">Residencia estudiantil Camilitos</string>
+    <string name="title_dialog_res_est_u">Residencia estudiantil</string>
+    <string name="title_dialog_sala_hist">Interior Sala de Historia</string>
+    <string name="title_dialog_salahist">Sala de Historia</string>
+    <string name="title_dialog_teatro_univ">Teatro universitario</string>
+    <string name="title_dialog_transporte">Base de transporte</string>
+    <string name="title_mostrar">Mostrar imágenes</string>
+    <string name="title_mostrar_mapa">Mostrar mapa</string>
+    <string name="title_toast_agropecuaria_ext">Áreas exteriores de Agropecuaria</string>
+    <string name="title_toast_biblioteca_ext">Áreas exteriores Biblioteca Central</string>
+    <string name="title_toast_biblioteca_int">Biblioteca Central de la Universidad</string>
+    <string name="title_toast_colegio">Colegio Universitario</string>
+    <string name="title_toast_comedor_cruce">Áreas exteriores del Comedor</string>
+    <string name="title_toast_comedor_ext">Áreas Becas</string>
+    <string name="title_toast_comedor_int">Comedor Central de la Universidad</string>
+    <string name="title_toast_construccion_ext">Áreas Deportivas</string>
+    <string name="title_toast_entrada">Entrada Universidad</string>
+    <string name="title_toast_fc">Facultad de Construcciones (FC)</string>
+    <string name="title_toast_fca">Facultad de Ciencias Agropecuarias (FCA)</string>
+    <string name="title_toast_fce">Facultad de Ciencias Económicas (FCE)</string>
+    <string name="title_toast_fcf">Facultad de Cultura Física (FCF)</string>
+    <string name="title_toast_fcruce">Cruce</string>
+    <string name="title_toast_fei">Facultad de Educación Infantil (FEI)</string>
+    <string name="title_toast_fem">Facultad de Educación Media (FEM)</string>
+    <string name="title_toast_fentrada">Entrada Cede Fajardo</string>
+    <string name="title_toast_fgimnacio">Gimnacio</string>
+    <string name="title_toast_fhcs">Facultades Humanidades - Ciencias Sociales</string>
+    <string name="title_toast_fie">Facultad de Ingeniería Eléctrica (FIE)</string>
+    <string name="title_toast_fimifq">Facultades Ingeniería Mecánica e Industrial - Química Farmacia</string>
+    <string name="title_toast_flobi">Lobi</string>
+    <string name="title_toast_fmfc">Facultad de Matemática Física Computación (FMFC)</string>
+    <string name="title_toast_fplaza">Plaza</string>
+    <string name="title_toast_fpista">Pista de atletismo</string>
+    <string name="title_toast_humanidades_ext">Áreas exteriores de Humanidades</string>
+    <string name="title_toast_jardin">Jardín Botánico</string>
+    <string name="title_toast_mfc_ext">Áreas exteriores de MFC</string>
+    <string name="title_toast_pbeca">Áreas Beca</string>
+    <string name="title_toast_pbiblioteca">Biblioteca</string>
+    <string name="title_toast_pcolegio">Colegio Universitario</string>
+    <string name="title_toast_pcomedor">Áreas Comedor</string>
+    <string name="title_toast_pentrada">Entrada Cede Felix Varela</string>
+    <string name="title_toast_pexteriorbiblioteca">Exteriores de Biblioteca</string>
+    <string name="title_toast_pexteriorsalahistoria">Exterior Sala Historia</string>
+    <string name="title_toast_pfacultadinfantil">Facultad de Educación Infantil</string>
+    <string name="title_toast_pfacultadmedia">Facultad de Educación Media</string>
+    <string name="title_toast_psalahistoria">Sala Historia</string>
+    <string name="title_toast_psalida">salida</string>
+    <string name="title_toast_rectorado">Áreas Edificio Rectorado</string>
+    <string name="title_toast_salahistoria">Sala de Historia</string>
+    <string name="title_toast_teatro">Áreas del Teatro</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+</resources>

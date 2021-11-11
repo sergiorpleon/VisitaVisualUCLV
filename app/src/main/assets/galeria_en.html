@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Panorama 360&deg;</title>
+	<meta name="description" content="Creative design agency that tries to make the complex feel simple." />
+	<link rel="stylesheet" href="css/site.css" media="all" />
+	<link rel="stylesheet" href="css/panorama360.css" media="all" />
+	<link rel="stylesheet" href="css/hint.min.css" media="all" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.carouFredSel.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.transit.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/jquery.ba-throttle-debounce.min.js"></script>
+	<script src="js/jquery.panorama360.js"></script>
+	<style type="text/css" media="all">
+			html, body {
+				padding: 0;
+				margin: 0;
+			}
+			body, div, p {
+				font-family: Arial, Helvetica, Verdana;
+				color: #333;
+			}
+			body {
+				background-color: #eee;
+			}
+			h1 {
+				font-size: 60px;
+			}
+			a, a:link, a:active, a:visited {
+				color: black;
+				text-decoration: underline;
+			}
+			a:hover {
+				color: #9E1F63;
+			}
+			#intro {
+				width: 580px;
+				margin: 0 auto;
+			}
+			.wrapper {
+				background-color: white;
+				width: 480px;
+				margin: 40px auto;
+				padding: 50px;
+				box-shadow: 0 0 5px #999;
+			}
+			.list_carousel {
+				background-color: transparent;
+				margin: 0px;
+				width: 60px;
+				position: absolute;
+				top: 0px;
+				height: 100%;
+			}
+			.list_carousel > div {		
+				height: 100%;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				overflow: hidden;
+				font-size: 40px;
+				color: #999;
+				text-align: center;
+				background-color: #eee;
+				border: 5px solid #3F51B5;
+				width: 50px;
+				height: 50px;
+				padding: 0;
+				margin: 6px;
+				display: block;
+				float: left;
+			}
+			.list_carousel.responsive {
+				width: auto;
+				margin-left: 0;
+			}
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {
+				float: left;
+				margin-left: 10px;
+			}
+			.next {
+				float: right;
+				margin-right: 10px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+
+
+			.hint--always.hint--bottom::before {
+    			-webkit-transform: translateY(-10px);
+    			-moz-transform: translateY(-10px);
+    			transform: translateY(-10px);
+			}
+			.hint--always.hint--bottom::after {
+    			-webkit-transform: translateX(-50%) translateY(-10px);
+    			-moz-transform: translateX(-50%) translateY(-10px);
+    			transform: translateX(-50%) translateY(-10px);
+			}
+			.area{
+			 	border: 2px solid blue;
+			}
+
+			.hint--always.hint--bottom::before {
+				display: none;
+			}
+			.hint--always.hint--bottom::after {
+
+    			-webkit-transform: translateX(-50%) translateY(-15px);
+    			-moz-transform: translateX(-50%) translateY(-15px);
+    			transform: translateX(-50%) translateY(-15px);
+    			background-color: #111;
+    			opacity: 0.9 !important;
+    			border-radius: 4px;
+    			padding: 2px 5px !important;
+    			width: 100% !important;
+				text-align: center;
+
+    		}
+		</style>
+	
+</head>
+<body>
+	<div class="panorama">
+		<div class="panorama-view uno">
+			<div class="panorama-container">
+				<img src="" usemap="hotspots" data-width="7750" data-height="750" alt="" />
+				<map id="hotspots" name="hotspots">
+					<!--  (source x-) (source y|) (dest x-) (des y|)   -->
+					<area shape="rect" class="hint--bottom hint--always hotspot imgs1" coords="0,25,200,225" href="#" alt="Valla entrada de la UCLV" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgs2" coords="0,275,200,475" href="#" alt="Escultura Marta Abreu" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgs3" coords="0,525,200,725" href="#" alt="Edificio del Rectorado" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgs4" coords="250,25,450,225" href="#" alt="Policlínico" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgs5" coords="250,275,450,475" href="#" alt="Dir. Internacionalización" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgs6" coords="250,525,450,725" href="#" alt="Sala XXXV Aniversario" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgs7" coords="500,25,700,225" href="#" alt="Edificio Administrativo" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgsh1" coords="500,275,700,475" href="#" alt="Interior Sala Historia" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgsh2" coords="500,525,700,725" href="#" alt="Interior Sala Historia" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgsh3" coords="750,25,950,225" href="#" alt="Interior Sala Historia" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imga1" coords="750,275,950,475" href="#" alt="CEDE" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imga2" coords="750,525,950,725" href="#" alt="Comedor Agropecuaria" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imga3" coords="1000,25,1200,225" href="#" alt="Hotel 'Los Sauces'" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imga4" coords="1000,275,1200,475" href="#" alt="IBP" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imga5" coords="1000,525,1200,725" href="#" alt="Becas agropecuaria" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad1" coords="1250,25,1450,225" href="#" alt="SEDER" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad2" coords="1250,275,1450,475" href="#" alt="Piscina" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad3" coords="1250,525,1450,725" href="#" alt="áreas deportivas" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad4" coords="1500,25,1700,225" href="#" alt="Juegos Criollos" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad5" coords="1500,275,1700,475" href="#" alt="Juegos Criollos" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad6" coords="1500,525,1700,725" href="#" alt="Juegos Criollos" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad7" coords="1750,25,1950,225" href="#" alt="Juegos Criollos" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgad8" coords="1750,275,1950,475" href="#" alt="Panadería" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgcbq1" coords="1750,525,1950,725" href="#" alt="CBQ" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgcbq2" coords="2000,25,2200,225" href="#" alt="CBQ" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgcei1" coords="2000,275,2200,475" href="#" alt="CII" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgcei2" coords="2000,525,2200,725" href="#" alt="CII" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfc1" coords="2250,25,2450,225" href="#" alt="FC" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfc2" coords="2250,275,2450,475" href="#" alt="FC" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfc3" coords="2250,525,2450,725" href="#" alt="FC" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgb1" coords="2500,25,2700,225" href="#" alt="Colección Coronado" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgb2" coords="2500,275,2700,475" href="#" alt="Colección Coronado" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgb3" coords="2500,525,2700,725" href="#" alt="Colección Coronado" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgb4" coords="2750,25,2950,225" href="#" alt="Colección Coronado" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfce1" coords="2750,275,2950,475" href="#" alt="FCE" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfce2" coords="2750,525,2950,725" href="#" alt="FCE" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfce3" coords="3000,25,3200,225" href="#" alt="FCE" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfie1" coords="3000,275,3200,475" href="#" alt="FIE" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfie2" coords="3000,525,3200,725" href="#" alt="FIE" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfie3" coords="3250,25,3450,225" href="#" alt="FIE" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfie4" coords="3250,275,3450,475" href="#" alt="FIE" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfie5" coords="3250,525,3450,725" href="#" alt="FIE" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfie6" coords="3500,25,3700,225" href="#" alt="FIE" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfeu1" coords="3500,275,3700,475" href="#" alt="Casa del Estudiante" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfeu2" coords="3500,525,3700,725" href="#" alt="Casa del Estudiante" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfeu3" coords="3750,25,3950,225" href="#" alt="Casa del Estudiante" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfeu4" coords="3750,275,3950,475" href="#" alt="Caminata" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfeu5" coords="3750,525,3950,725" href="#" alt="Caminata" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfeu6" coords="4000,25,4200,225" href="#" alt="Caminata" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh1" coords="4000,275,4200,475" href="#" alt="FCS" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh2" coords="4000,525,4200,725" href="#" alt="CEC" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh3" coords="4250,25,4450,225" href="#" alt="FH" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh4" coords="4250,275,4450,475" href="#" alt="FH" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh5" coords="4250,525,4450,725" href="#" alt="Centro de Idiomas" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh6" coords="4500,25,4700,225" href="#" alt="FH" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh7" coords="4500,275,4700,475" href="#" alt="FCS" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh8" coords="4500,525,4700,725" href="#" alt="FCS" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfh9" coords="4750,25,4950,225" href="#" alt="FCS" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgj1" coords="4750,275,4950,475" href="#" alt="CEJB" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgj2" coords="4750,525,4950,725" href="#" alt="CEJB" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgj3" coords="5000,25,5200,225" href="#" alt="CEJB" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgj4" coords="5000,275,5200,475" href="#" alt="CEJB" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfqf1" coords="5000,525,5200,725" href="#" alt="FQF" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfqf2" coords="5250,25,5450,225" href="#" alt="FQF" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi1" coords="5250,275,5450,475" href="#" alt="FIMI - FQF" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi2" coords="5250,525,5450,725" href="#" alt="FIMI" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi3" coords="5500,25,5700,225" href="#" alt="Taller de Soldadura" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi4" coords="5500,275,5700,475" href="#" alt="Laboratorio de Hidráulica" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi5" coords="5500,525,5700,725" href="#" alt="Laboratorio de Metrología" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi6" coords="5750,25,5950,225" href="#" alt="Talleres de Mecánica" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi7" coords="5750,275,5950,475" href="#" alt="Taller de Fundición" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgfimi8" coords="5750,525,5950,725" href="#" alt="Taller de Motor" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgmfc1" coords="6000,25,6200,225" href="#" alt="FMFC" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgmfc2" coords="6000,275,6200,475" href="#" alt="FMFC" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgmfc3" coords="6000,525,6200,725" href="#" alt="FMFC" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgmfc4" coords="6250,25,6450,225" href="#" alt="FMFC" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgmfc5" coords="6250,275,6450,475" href="#" alt="FMFC" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgmfc6" coords="6250,525,6450,725" href="#" alt="FMFC" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgt1" coords="6500,25,6700,225" href="#" alt="Festival" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgt2" coords="6500,275,6700,475" href="#" alt="Grupo Danzario" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgt3" coords="6500,525,6700,725" href="#" alt="Grupo Danzario" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgt4" coords="6750,25,6950,225" href="#" alt="Festival" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgt5" coords="6750,275,6950,475" href="#" alt="Festival" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgf1" coords="6750,525,6950,725" href="#" alt="Edificio 900" />
+
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf1" coords="7000,25,7200,225" href="#" alt="Busto Felix Varela" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf2" coords="7000,275,7200,475" href="#" alt="Escultura mano pensante" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf3" coords="7000,525,7200,725" href="#" alt="Museo Arquelogía" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf4" coords="7250,25,7450,225" href="#" alt="Laboratorio de idioma" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf5" coords="7250,275,7450,475" href="#" alt="Laboratorio de química" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf6" coords="7250,525,7450,725" href="#" alt="Facultad de Infantil" />
+
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf7" coords="7500,25,7700,225" href="#" alt="Cede Fajardo" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf8" coords="7500,275,7700,475" href="#" alt="Sala de historia del Fajardo" />
+					<area shape="rect" class="hint--bottom hint--always hotspot imgpf9" coords="7500,525,7700,725" href="#" alt="Áreas Fajardo" />
+
+				</map>
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+
+	<script>
+		$(function(){
+			$('.panorama .panorama-view.uno').panorama360({ sliding_interval: 40, sliding_direction: 1});
+			
+/*
+		//interactivo
+		$('.panorama-container a.area').click(function(e){
+			var stringurl = $(this).css("background-image");
+			var stringsplit = stringurl.split("/");
+			var stringslider = stringsplit[stringsplit.length-3];
+			var stringimages = stringsplit[stringsplit.length-2];
+			var stringimg = stringsplit[stringsplit.length-1];
+			stringimg = stringimg.split("\"")[0];
+			//console.log(stringslider + "/" + stringimages + "/" + stringimg );
+			Android.showofGaleria(stringslider + "/" + stringimages + "/" + stringimg );
+		});
+*/
+
+		var city, map;
+      	map = $('.panorama-container');
+      	img = map.find('.area');
+      	img.each(function(i) {
+        	var button, that;
+        	that = $(this);
+        	button = that;
+
+        	return button.on('click', function() {
+				Android.showofGaleria( i );
+        	});
+        });
+
+
+		});
+
+    //esta funcion se llama cdesde main Activity cuando carga el WebView
+    function init(val){
+        //showAndroidToast(val)
+    }
+
+    //esta funcion llama codigo Android y toma el valor e una variable javascript
+    //y lo muestra llamando una funcion Android que carga el toast
+    function getAndroidBye() {
+       // var bye = Android.getBye("Bye Sergio");
+       // showAndroidToast(bye);
+    }
+	</script>
+</body>
+</html>

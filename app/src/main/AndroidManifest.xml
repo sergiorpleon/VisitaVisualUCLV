@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uclv.dte">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.uclv.dte.CentralActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/app_name" android:name="com.uclv.dte.PedagogicoActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/app_name" android:name="com.uclv.dte.FajardoActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.uclv.dte.ImageDialog" android:theme="@style/myDialogTheme"/>
+        <activity android:name="com.uclv.dte.SliderDialog" android:theme="@style/myDialogTheme"/>
+        <activity android:label="@string/title_activity_fie" android:name="com.uclv.dte.FIEActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fqf" android:name="com.uclv.dte.FQFActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fimi" android:name="com.uclv.dte.FIMIActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fem" android:name="com.uclv.dte.FEMActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fei" android:name="com.uclv.dte.FEIActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fcf" android:name="com.uclv.dte.FCFActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_colegio" android:name="com.uclv.dte.ColegioActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fce" android:name="com.uclv.dte.FCEActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fmfc" android:name="com.uclv.dte.FMFCActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fh" android:name="com.uclv.dte.FHActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fca" android:name="com.uclv.dte.FCAActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fc" android:name="com.uclv.dte.FCActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cbq" android:name="com.uclv.dte.CBQActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cei" android:name="com.uclv.dte.CEIActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cidem" android:name="com.uclv.dte.CIDEMActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cemni" android:name="com.uclv.dte.CEMNIActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_fcs" android:name="com.uclv.dte.FCSActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_jardin" android:name="com.uclv.dte.JardinActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.uclv.dte.ViewPage_activity"/>
+        <activity android:name="com.uclv.dte.Zoom"/>
+        <activity android:label="@string/title_activity_ced" android:name="com.uclv.dte.CEDActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_ceed" android:name="com.uclv.dte.CEEDActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_ciap" android:name="com.uclv.dte.CIAPActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cec" android:name="com.uclv.dte.CECActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cee" android:name="com.uclv.dte.CEEActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cis" android:name="com.uclv.dte.CISActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_ceta" android:name="com.uclv.dte.CETAActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_ceqa" android:name="com.uclv.dte.CEQAActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_cecfd" android:name="com.uclv.dte.CECFDActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/title_activity_ibp" android:name="com.uclv.dte.IBPActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:label="@string/app_name" android:name="com.uclv.dte.InicialActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uclv.dte.GaleriaActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.uclv.dte.InicialActivity"/>
+        </activity>
+        <activity android:name="com.uclv.dte.Map"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>

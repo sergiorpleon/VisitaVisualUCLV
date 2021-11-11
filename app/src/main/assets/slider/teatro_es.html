@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic fotorama</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- jQuery -->
+  <script src="./js/jquery.min.js"></script>
+
+  <!-- Fotorama -->
+  <link href="css/fotorama.css" rel="stylesheet">
+  <script src="js/fotorama.js"></script>
+
+  <!-- Just don’t want to repeat this prefix in every img[src] -->
+  <style>
+  html, body, body > div{
+  background: transparent !important;
+  }
+  </style>
+</head>
+
+<body>
+
+<!-- Fotorama -->
+<div class="fotorama" data-ratio="700/467" data-max-width="100%">
+  <img src="img/teatro/teatro1.jpg" data-caption='Gala'>
+  <img src="img/teatro/teatro2.jpg" data-caption='Conjunto danzario 5 de Septiembre'>
+  <img src="img/teatro/teatro3.jpg" data-caption='Conjunto danzario 5 de Septiembre'>
+  <img src="img/teatro/teatro4.jpg" data-caption='Festival universitarios'>
+  <img src="img/teatro/teatro5.jpg" data-caption='Festival universitarios'>
+</div>
+</body>
+</html>

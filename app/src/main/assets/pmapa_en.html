@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Panorama 360&deg;</title>
+	<meta name="description" content="Creative design agency that tries to make the complex feel simple." />
+	<link rel="stylesheet" href="css/site.css" media="all" />
+	<link rel="stylesheet" href="css/panorama360.css" media="all" />
+	<link rel="stylesheet" href="css/hint.min.css" media="all" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.carouFredSel.js" type="text/javascript"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.transit.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.ba-throttle-debounce.min.js"></script>
+	<script src="js/jquery.panorama360.js"></script>
+	<style type="text/css" media="all">
+			html, body {
+				padding: 0;
+				margin: 0;
+			}
+			body, div, p {
+				font-family: Arial, Helvetica, Verdana;
+				color: #333;
+			}
+			body {
+				background-color: #eee;
+			}
+			h1 {
+				font-size: 60px;
+			}
+			a, a:link, a:active, a:visited {
+				color: black;
+				text-decoration: underline;
+			}
+			a:hover {
+				color: #9E1F63;
+			}
+			#intro {
+				width: 580px;
+				margin: 0 auto;
+			}
+			.wrapper {
+				background-color: white;
+				width: 480px;
+				margin: 40px auto;
+				padding: 50px;
+				box-shadow: 0 0 5px #999;
+			}
+			.list_carousel {
+				background-color: transparent;
+				margin: 0px;
+				width: 60px;
+				position: absolute;
+				top: 0px;
+				height: 100%;
+			}
+			.list_carousel > div {		
+				height: 100%;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				overflow: hidden;
+				font-size: 40px;
+				color: #999;
+				text-align: center;
+				background-color: #eee;
+				border: 5px solid #3F51B5;
+				width: 50px;
+				height: 50px;
+				padding: 0;
+				margin: 6px;
+				display: block;
+				float: left;
+			}
+			.list_carousel.responsive {
+				width: auto;
+				margin-left: 0;
+			}
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {
+				float: left;
+				margin-left: 10px;
+			}
+			.next {
+				float: right;
+				margin-right: 10px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+
+
+			.panorama{
+			    background: #fff; //#001902;
+			}
+			.panorama-view.uno{
+			    margin: auto;
+			}
+
+			.panorama-container {
+    			overflow: hidden;
+			}
+			
+		</style>
+	
+</head>
+<body>
+	<script src="pmapa.js"></script>
+
+	<script>
+
+	$(function(){
+		var pagelink = window.location + "";
+		var arrWords = pagelink.split("#");
+		var numero = arrWords[arrWords.length-1];
+		$('map > area:nth-child('+numero+')').addClass('active');
+
+
+		oldX = $('body').css('width'); //window.screenX;
+		oldY = $('body').css('height'); //window.screenY;
+
+		var ratioimg = 1446/1065;
+		var ratioscreen =  parseFloat(oldX) / parseFloat(oldY);
+		if(ratioscreen > ratioimg){
+		    var newwidth = (1446*parseFloat(oldY))/1065;
+		    $('.panorama-view.uno').css('width', newwidth+"");
+
+$('.panorama .panorama-view.uno').panorama360({ is360: false});
+
+		}else{
+
+		$('.panorama .panorama-view.uno').panorama360({ start_position: 200, is360: false});
+
+}
+
+		var id;
+		$(window).resize(function() {
+    		//clearTimeout(id);
+    		$('.panorama-view.uno').css('width', $('.panorama-container > img').css("width"));
+    		//id = setTimeout(doneResizing, 500);
+
+		});
+		$('.panorama-view.uno').css('overflow', "hidden");
+
+		//mapa
+		$('.info.back').click(function(e){
+				Android.showPano("back");
+		});
+
+
+		//entrada
+		$('.panorama-container a.area.pentrada').click(function(e){
+				Android.showPano("pentrada");
+		});
+		//sala de historia
+		$('.panorama-container a.area.pexteriorsalahistoria').click(function(e){
+				Android.showPano("pexteriorsalahistoria");
+		});
+		//sala de historia
+		$('.panorama-container a.area.psalahistoria').click(function(e){
+				Android.showPano("psalahistoria");
+		});
+		//biblioteca
+		$('.panorama-container a.area.pexteriorbiblioteca').click(function(e){
+				Android.showPano("pexteriorbiblioteca");
+		});
+		//biblioteca
+		$('.panorama-container a.area.pbiblioteca').click(function(e){
+				Android.showPano("pbiblioteca");
+		});
+		//media
+		$('.panorama-container a.area.pfacultadmedia').click(function(e){
+				Android.showPano("pfacultadmedia");
+		});
+		//infantil
+		$('.panorama-container a.area.pfacultadinfantil').click(function(e){
+				Android.showPano("pfacultadinfantil");
+		});
+		//colegio
+		$('.panorama-container a.area.pcolegio').click(function(e){
+				Android.showPano("pcolegio");
+		});
+		//comedor
+		$('.panorama-container a.area.pcomedor').click(function(e){
+				Android.showPano("pcomedor");
+		});
+		//beca
+		$('.panorama-container a.area.pbeca').click(function(e){
+				Android.showPano("pbeca");
+		});
+		//salida
+		$('.panorama-container a.area.psalida').click(function(e){
+				Android.showPano("psalida");
+		});
+
+		 });
+
+	//function para Android
+		function showPano(pano) {
+        	Android.showPano(pano);
+   		 }
+
+
+
+    //esta funcion se llama cdesde main Activity cuando carga el WebView
+    function init(val){
+        //$('map > area:nth-child(9)').addClass('active');
+    }
+
+    //esta funcion llama codigo Android y toma el valor e una variable javascript
+    //y lo muestra llamando una funcion Android que carga el toast
+    function getAndroidBye() {
+       // var bye = Android.getBye("Bye Sergio");
+       // showAndroidToast(bye);
+    }
+
+
+	</script>
+</body>
+</html>

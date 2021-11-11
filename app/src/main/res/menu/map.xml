@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/facultades" android:title="@string/app_facultades" app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/central_fmfc" android:orderInCategory="100" android:title="@string/title_activity_fmfc" app:showAsAction="never" />
+            <item android:id="@+id/central_fh" android:orderInCategory="100" android:title="@string/title_activity_fh" app:showAsAction="never" />
+            <item android:id="@+id/central_fcs" android:orderInCategory="100" android:title="@string/title_activity_fcs" app:showAsAction="never" />
+            <item android:id="@+id/central_fqf" android:orderInCategory="100" android:title="@string/title_activity_fqf" app:showAsAction="never" />
+            <item android:id="@+id/central_fimi" android:orderInCategory="100" android:title="@string/title_activity_fimi" app:showAsAction="never" />
+            <item android:id="@+id/central_fce" android:orderInCategory="100" android:title="@string/title_activity_fce" app:showAsAction="never" />
+            <item android:id="@+id/central_fie" android:orderInCategory="100" android:title="@string/title_activity_fie" app:showAsAction="never" />
+            <item android:id="@+id/central_fc" android:orderInCategory="100" android:title="@string/title_activity_fc" app:showAsAction="never" />
+            <item android:id="@+id/central_fca" android:orderInCategory="100" android:title="@string/title_activity_fca" app:showAsAction="never" />
+            <item android:id="@+id/pedagogico_fem" android:orderInCategory="100" android:title="@string/title_activity_fem" app:showAsAction="never" />
+            <item android:id="@+id/pedagogico_fei" android:orderInCategory="100" android:title="@string/title_activity_fei" app:showAsAction="never" />
+            <item android:id="@+id/fajardo_fcf" android:orderInCategory="100" android:title="@string/title_activity_fcf" app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:id="@+id/centros" android:title="@string/app_centros" app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/central_ced" android:orderInCategory="100" android:title="@string/title_activity_ced" app:showAsAction="never" />
+            <item android:id="@+id/central_cejb" android:orderInCategory="100" android:title="@string/title_activity_cejb" app:showAsAction="never" />
+            <item android:id="@+id/central_cemni" android:orderInCategory="100" android:title="@string/title_activity_cemni" app:showAsAction="never" />
+            <item android:id="@+id/central_ciap" android:orderInCategory="100" android:title="@string/title_activity_ciap" app:showAsAction="never" />
+            <item android:id="@+id/central_cidem" android:orderInCategory="100" android:title="@string/title_activity_cidem" app:showAsAction="never" />
+            <item android:id="@+id/central_cec" android:orderInCategory="100" android:title="@string/title_activity_cec" app:showAsAction="never" />
+            <item android:id="@+id/central_cee" android:orderInCategory="100" android:title="@string/title_activity_cee" app:showAsAction="never" />
+            <item android:id="@+id/central_cis" android:orderInCategory="100" android:title="@string/title_activity_cis" app:showAsAction="never" />
+            <item android:id="@+id/central_ceta" android:orderInCategory="100" android:title="@string/title_activity_ceta" app:showAsAction="never" />
+            <item android:id="@+id/central_ceqa" android:orderInCategory="100" android:title="@string/title_activity_ceqa" app:showAsAction="never" />
+            <item android:id="@+id/central_cei" android:orderInCategory="100" android:title="@string/title_activity_cei" app:showAsAction="never" />
+            <item android:id="@+id/pedagogico_ceed" android:orderInCategory="100" android:title="@string/title_activity_ceed" app:showAsAction="never" />
+            <item android:id="@+id/fajardo_cecfd" android:orderInCategory="100" android:title="@string/title_activity_cecfd" app:showAsAction="never" />
+            <item android:id="@+id/central_cbq" android:orderInCategory="100" android:title="@string/title_activity_cbq" app:showAsAction="never" />
+            <item android:id="@+id/central_ibp" android:orderInCategory="100" android:title="@string/title_activity_ibp" app:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:id="@+id/otros" android:title="@string/app_otros" app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/central_rectorado" android:orderInCategory="100" android:title="@string/title_dialog_rectorado" app:showAsAction="never" />
+            <item android:id="@+id/central_internacionalizacion" android:orderInCategory="100" android:title="@string/title_dialog_rel_int" app:showAsAction="never" />
+            <item android:id="@+id/central_teatro" android:orderInCategory="100" android:title="@string/title_dialog_teatro_univ" app:showAsAction="never" />
+            <item android:id="@+id/central_salahistoria" android:orderInCategory="100" android:title="@string/title_dialog_salahist" app:showAsAction="never" />
+            <item android:id="@+id/central_biblioteca" android:orderInCategory="100" android:title="@string/title_dialog_biblioteca" app:showAsAction="never" />
+            <item android:id="@+id/central_comedor" android:orderInCategory="100" android:title="@string/title_dialog_comedor" app:showAsAction="never" />
+            <item android:id="@+id/central_feu" android:orderInCategory="100" android:title="@string/title_dialog_casafeu" app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

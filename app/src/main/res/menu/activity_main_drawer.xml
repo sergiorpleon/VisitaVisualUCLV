@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/app_menu_title">
+            <menu>
+                <item android:icon="@drawable/ic_panorama_black_24dp" android:id="@+id/nav_visita" android:title="@string/app_menu_subtitle_menu" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="@string/app_facultades">
+        <menu>
+            <item android:id="@+id/nav_agropecuaria" android:title="@string/title_activity_fca_menu" />
+            <item android:id="@+id/nav_computacion" android:title="@string/title_activity_fmfc_menu" />
+            <item android:id="@+id/nav_construccion" android:title="@string/title_activity_fc_menu" />
+            <item android:id="@+id/nav_economia" android:title="@string/title_activity_fce_menu" />
+            <item android:id="@+id/nav_electrica" android:title="@string/title_activity_fie_menu" />
+            <item android:id="@+id/nav_farmacia" android:title="@string/title_activity_fimifq" />
+            <item android:id="@+id/nav_humanidades" android:title="@string/title_activity_fhcs" />
+        </menu>
+    </item>
+    <item android:title="@string/app_galeria">
+        <menu>
+            <item android:icon="@drawable/ic_photo_library_black_24dp" android:id="@+id/nav_galeria" android:title="@string/title_mostrar" />
+        </menu>
+    </item>
+    <item android:title="@string/app_mapa">
+        <menu>
+            <item android:icon="@drawable/ic_map_black_24dp" android:id="@+id/nav_mapa" android:title="@string/title_mostrar_mapa" />
+        </menu>
+    </item>
+</menu>

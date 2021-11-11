@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic fotorama</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- jQuery -->
+  <script src="./js/jquery.min.js"></script>
+
+  <!-- Fotorama -->
+  <link href="css/fotorama.css" rel="stylesheet">
+  <script src="js/fotorama.js"></script>
+
+  <!-- Just don’t want to repeat this prefix in every img[src] -->
+  <style>
+  html, body, body > div{
+  background: transparent !important;
+  }
+  </style>
+</head>
+
+<body>
+
+<!-- Fotorama -->
+<div class="fotorama" data-width="700" data-ratio="700/467" data-max-width="100%">
+  <img src="img/mecanica/Mecanica e Industrial.jpg" data-caption='Facultad de Ingeniería Mecánica e Industrial'>
+  <img src="img/mecanica/mecanica1.jpg" data-caption='Facultad de Ingeniería Mecánica e Industrial'>
+  <img src="img/mecanica/Mecanica Talleres.jpg" data-caption='Mecánica Talleres'>
+  <img src="img/mecanica/taller de fundicion.jpg" data-caption='Mecánica Taller de fundición'>
+  <img src="img/mecanica/taller de motor2.jpg" data-caption='Mecánica Taller de motor'>
+  <img src="img/mecanica/Mecanica CISoldadura.jpg" data-caption='Mecánica Taller de soldadura'>
+  <img src="img/mecanica/Mecanica Lab hidraulica.jpg" data-caption='Mecánica Laboratorio de hidráulica'>
+  <img src="img/mecanica/Mecanica metrologia.jpg" data-caption='Mecánica Laboratorio de metrología'>
+</div>
+</body>
+</html>

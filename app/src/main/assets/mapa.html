@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Panorama 360&deg;</title>
+	<meta name="description" content="Creative design agency that tries to make the complex feel simple." />
+	<link rel="stylesheet" href="css/site.css" media="all" />
+	<link rel="stylesheet" href="css/panorama360.css" media="all" />
+	<link rel="stylesheet" href="css/hint.min.css" media="all" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.carouFredSel.js" type="text/javascript"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.transit.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.ba-throttle-debounce.min.js"></script>
+	<script src="js/jquery.panorama360.js"></script>
+	<style type="text/css" media="all">
+			html, body {
+				padding: 0;
+				margin: 0;
+			}
+			body, div, p {
+				font-family: Arial, Helvetica, Verdana;
+				color: #333;
+			}
+			body {
+				background-color: #eee;
+			}
+			h1 {
+				font-size: 60px;
+			}
+			a, a:link, a:active, a:visited {
+				color: black;
+				text-decoration: underline;
+			}
+			a:hover {
+				color: #9E1F63;
+			}
+			#intro {
+				width: 580px;
+				margin: 0 auto;
+			}
+			.wrapper {
+				background-color: white;
+				width: 480px;
+				margin: 40px auto;
+				padding: 50px;
+				box-shadow: 0 0 5px #999;
+			}
+			.list_carousel {
+				background-color: transparent;
+				margin: 0px;
+				width: 60px;
+				position: absolute;
+				top: 0px;
+				height: 100%;
+			}
+			.list_carousel > div {		
+				height: 100%;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				overflow: hidden;
+				font-size: 40px;
+				color: #999;
+				text-align: center;
+				background-color: #eee;
+				border: 5px solid #3F51B5;
+				width: 50px;
+				height: 50px;
+				padding: 0;
+				margin: 6px;
+				display: block;
+				float: left;
+			}
+			.list_carousel.responsive {
+				width: auto;
+				margin-left: 0;
+			}
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {
+				float: left;
+				margin-left: 10px;
+			}
+			.next {
+				float: right;
+				margin-right: 10px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+
+
+			.panorama{
+			    background: #fff; //#001902;
+			}
+			.panorama-view.uno{
+			    margin: auto;
+			}
+			
+			
+		</style>
+	
+</head>
+<body>
+	<div class="panorama">
+		<div class="panorama-view uno">
+			<div class="panorama-container">
+				<img src="images/Mapa/mapauclv.jpg" usemap="hotspots" data-width="1264" data-height="750" alt="Panorama" />
+				<map id="hotspots" name="hotspots">
+					<!--  (source x-) (source y|) (dest x-) (des y|)   -->
+                    <area shape="rect" class="hotspot mapa mfc-cruce" coords="150,80, 200, 130" href="#" alt="area Policlínico" />
+					<area shape="rect" class="hotspot mapa entrada" coords="320, 120, 370, 170" href="#" alt="entrada" />
+					<area shape="rect" class=" hotspot mapa biblioteca-cruce" coords="270, 270, 320, 320" href="#" alt="area biblioteca" />
+					<area shape="rect" class="hotspot mapa facultades" coords="220, 180, 270, 230" href="#" alt="area facultades" />
+					<area shape="rect" class=" hotspot mapa rectorado" coords="360, 270, 410, 320" href="#" alt="area rectorado" />
+					<area shape="rect" class=" hotspot mapa teatro" coords="430, 320, 480, 370" href="#" alt="area teatro" />
+					<area shape="rect" class=" hotspot mapa comedor-cruce" coords="410, 410, 460, 460" href="#" alt="area comedor" />
+					<area shape="rect" class=" hotspot mapa construccion-cruce" coords="690, 550, 740, 600" href="#" alt="area zona deportiva" />
+					<area shape="rect" class=" hotspot mapa agropecuaria-cruce" coords="1050, 230, 1100, 280" href="#" alt="area agropecuaria" />
+
+					<area shape="rect" class="hotspot mapa mfc-int" coords="120,10, 170, 60" href="#" alt="Facultad Matemática Física Computación" />
+					<area shape="rect" class=" hotspot mapa mecanica-int" coords="170, 150, 220, 200" href="#" alt="Facultad Ingienería Mecánica e Industria - Química Farmacia " />
+					<area shape="rect" class=" hotspot mapa humanidades-int" coords="290, 220, 340, 270" href="#" alt="Facultad Humanidades - Ciencias Sociales" />
+					<area shape="rect" class=" hotspot mapa salahistoria" coords="250, 150, 300, 200" href="#" alt="Sala de Historia" />
+					<area shape="rect" class=" hotspot mapa economia-int" coords="220, 260, 270, 310" href="#" alt="Facultad Ciencias Empresariales" />
+					<area shape="rect" class=" hotspot mapa biblioteca-int" coords="300, 310, 350, 360" href="#" alt="Biblioteca Central" />
+					<area shape="rect" class=" hotspot mapa electrica-int" coords="160, 400, 210, 450" href="#" alt="Facultad Ingienería Eléctrica" />
+					<area shape="rect" class=" hotspot mapa jardin" coords="300, 690, 350, 740" href="#" alt="Jardín Botánico" />
+					<area shape="rect" class=" hotspot mapa comedor-int" coords="440, 450, 490, 500" href="#" alt="Comedor Central" />
+					<area shape="rect" class=" hotspot mapa comedor-ext" coords="500, 430, 550, 480" href="#" alt="áreas becas" />
+					<area shape="rect" class=" hotspot mapa construccion-int" coords="790, 690, 840, 740" href="#" alt="Facultad Construcción" />
+					<area shape="rect" class=" hotspot mapa agropecuaria-int" coords="1090, 260, 1140, 310" href="#" alt="Facultad Ciencias Agropecuarias" />
+				</map>
+			</div>
+		</div>
+
+		<a class="info back round" href="#"><img src="images/iconos/back.png" data-pano="" width="50" /></a>
+		<img src="images/iconos/brujula.gif" style="right: 0px; top: 0px; position: absolute;" width="50" />
+		</div>
+
+	<script>
+
+		$(function(){
+			$('.panorama .panorama-view.uno').panorama360({is360: false});
+
+		oldX = $('body').css('width'); //window.screenX;
+		oldY = $('body').css('height'); //window.screenY;
+
+		var ratioimg = 1264/750;
+		var ratioscreen =  parseFloat(oldX) / parseFloat(oldY);
+		if(ratioscreen > ratioimg){
+		    var newwidth = (1264*parseFloat(oldY))/750;
+		    $('.panorama-view.uno').css('width', newwidth+"");
+
+		}
+
+var id;
+$(window).resize(function() {
+    //clearTimeout(id);
+    $('.panorama-view.uno').css('width', $('.panorama-container > img').css("width"));
+    //id = setTimeout(doneResizing, 500);
+
+});
+			$('.panorama-view.uno').css('overflow', "hidden");
+
+				//mapa
+		$('.info.back').click(function(e){
+				Android.showPano("back");
+		});
+
+
+		//teatro
+		$('.panorama-container a.area.entrada').click(function(e){
+				Android.showPano("entrada");
+		});
+		$('.panorama-container a.area.teatro').click(function(e){
+				Android.showPano("teatro-cruce");
+		});
+		//rectorado
+		$('.panorama-container a.area.rectorado').click(function(e){
+				Android.showPano("rectorado");
+		});
+		//humanidades
+		$('.panorama-container a.area.facultades').click(function(e){
+				Android.showPano("humanidades-cruce");
+		});
+		//salahistoria
+		$('.panorama-container a.area.salahistoria').click(function(e){
+				Android.showPano("salahistoria");
+		});
+		//mfc-cruce
+		$('.panorama-container a.area.mfc-cruce').click(function(e){
+				Android.showPano("mfc-cruce");
+		});
+		//biblioteca-cruce
+		$('.panorama-container a.area.biblioteca-cruce').click(function(e){
+				Android.showPano("biblioteca-cruce");
+		});
+		//comedor-cruce
+		$('.panorama-container a.area.comedor-cruce').click(function(e){
+				Android.showPano("comedor-cruce");
+		});
+		//construccion-cruce
+		$('.panorama-container a.area.construccion-cruce').click(function(e){
+				Android.showPano("construccion-cruce");
+		});
+		//agropecuaria-cruce
+		$('.panorama-container a.area.agropecuaria-cruce').click(function(e){
+				Android.showPano("agropecuaria-cruce");
+		});
+		//jardin
+		$('.panorama-container a.area.jardin').click(function(e){
+				Android.showPano("jardin");
+		});
+
+		//humanidades
+		$('.panorama-container a.area.humanidades-int').click(function(e){
+				Android.showPano("humanidades-int");
+		});
+		//mfc-int
+		$('.panorama-container a.area.mfc-int').click(function(e){
+				Android.showPano("mfc-int");
+		});
+		//mecanica-int
+		$('.panorama-container a.area.mecanica-int').click(function(e){
+				Android.showPano("mecanica-int");
+		});
+		//economia-int
+		$('.panorama-container a.area.economia-int').click(function(e){
+				Android.showPano("economia-int");
+		});
+		//electrica-int
+		$('.panorama-container a.area.electrica-int').click(function(e){
+				Android.showPano("electrica-int");
+		});
+		//construccion-int
+		$('.panorama-container a.area.construccion-int').click(function(e){
+				Android.showPano("construccion-int");
+		});
+		//agropecuaria-int
+		$('.panorama-container a.area.agropecuaria-int').click(function(e){
+				Android.showPano("agropecuaria-int");
+		});
+		//biblioteca-int
+		$('.panorama-container a.area.biblioteca-int').click(function(e){
+				Android.showPano("biblioteca-int");
+		});
+		//comedor-int
+		$('.panorama-container a.area.comedor-int').click(function(e){
+				Android.showPano("comedor-int");
+		});
+		//comedor-ext
+		$('.panorama-container a.area.comedor-int').click(function(e){
+				Android.showPano("comedor-ext");
+		});
+
+
+
+		 });
+
+	//function para Android
+		function showPano(pano) {
+        	Android.showPano(pano);
+   		 }
+
+
+
+    //esta funcion se llama cdesde main Activity cuando carga el WebView
+    function init(val){
+        //showAndroidToast(val)
+    }
+
+    //esta funcion llama codigo Android y toma el valor e una variable javascript
+    //y lo muestra llamando una funcion Android que carga el toast
+    function getAndroidBye() {
+       // var bye = Android.getBye("Bye Sergio");
+       // showAndroidToast(bye);
+    }
+
+
+	</script>
+</body>
+</html>

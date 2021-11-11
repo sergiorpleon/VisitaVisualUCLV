@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic fotorama</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- jQuery -->
+  <script src="./js/jquery.min.js"></script>
+
+  <!-- Fotorama -->
+  <link href="css/fotorama.css" rel="stylesheet">
+  <script src="js/fotorama.js"></script>
+
+  <!-- Just don’t want to repeat this prefix in every img[src] -->
+  <style>
+  html, body, body > div{
+  background: transparent !important;
+  }
+  </style>
+</head>
+
+<body>
+
+<!-- Fotorama -->
+<div class="fotorama" data-width="700" data-ratio="700/467" data-max-width="100%">
+  <img src="img/electrica/Electrica.jpg" data-caption='Facultad de Ingineria Eléctrica'>
+  <img src="img/electrica/FIE Laboratorio de electronica analogica.jpg" data-caption='FIE Laboratorio de electrónica analógica'>
+  <img src="img/electrica/elect2.jpg" data-caption='Laboratorios de electrónica'>
+  <img src="img/electrica/elect1.jpg" data-caption='Laboratorios de electrónica'>
+  <img src="img/electrica/elect3.jpg" data-caption='FIE Grupo automatización, robótica y persepción'>
+  <img src="img/electrica/FIE Grupo automatizacion, robotica y persepcion.jpg" data-caption='FIE Grupo automatización, robótica y persepción'>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+p, li {
+    text-align: justify !important;
+    color: 
+    #444 !important;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+
+p.lolo:nth-child(2){
+font-size: 2rem;
+text-align: center !important;
+}
+body{
+max-width: 540px;
+margin: auto;
+padding: 15px;
+}
+
+img{
+max-height: 300px;
+width: auto;
+}
+
+.imagen{
+text-align: center;
+}
+
+li{
+margin-bottom: 10px;
+}
+
+ul{
+padding-left: 20px;
+}

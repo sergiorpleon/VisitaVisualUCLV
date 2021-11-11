@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.mapsforge.map.android.view.MapView android:id="@+id/mapView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="end|bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/btnPedagogico" android:background="#ffffcb3b" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="Pedagógico" android:layout_weight="1.0" android:onClick="irPedagogico" />
+        <Button android:id="@+id/btnCentral" android:background="#ffff650c" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="Central" android:layout_weight="1.0" android:onClick="irCentral" />
+        <Button android:id="@+id/btnFajardo" android:background="#ffc22859" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="Fajardo" android:layout_weight="1.0" android:onClick="irFajardo" />
+    </LinearLayout>
+</RelativeLayout>

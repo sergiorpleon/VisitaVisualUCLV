@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic fotorama</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- jQuery -->
+  <script src="./js/jquery.min.js"></script>
+
+  <!-- Fotorama -->
+  <link href="css/fotorama.css" rel="stylesheet">
+  <script src="js/fotorama.js"></script>
+
+  <!-- Just don’t want to repeat this prefix in every img[src] -->
+  <style>
+  html, body, body > div{
+  background: transparent !important;
+  }
+  </style>
+</head>
+
+<body>
+
+<!-- Fotorama -->
+<div class="fotorama" data-width="700" data-ratio="700/467" data-max-width="100%">
+  <img src="img/mfc/Mat Fis y Comp.jpg" data-caption='Facultad de Matemática Física Computación'>
+  <img src="img/mfc/MFC Lab computacion.jpg" data-caption='MFC Laboratorios de computación'>
+  <img src="img/mfc/MFC ACM.jpg" data-caption='MFC Laboratorio ACM'>
+  <img src="img/mfc/MFC ACM1.jpg" data-caption='MFC Laboratorio ACM'>
+  <img src="img/mfc/MFC lab electromagnetismo.jpg" data-caption='MFC Laboratorios de electromagnetismo'>
+  <img src="img/mfc/MFC lab electromagnetismo1.jpg" data-caption='MFC Laboratorios de electromagnetismo'>
+</div>
+</body>
+</html>

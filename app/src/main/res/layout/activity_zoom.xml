@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.uclv.dte.TouchImageView android:id="@+id/idzoomimg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/marta" />
+
+    <TextView
+        android:id="@+id/idtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0px"
+        android:background="#aa000000"
+        android:gravity="bottom"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textSize="20.0dip"
+        android:textStyle="bold" />
+</FrameLayout>
