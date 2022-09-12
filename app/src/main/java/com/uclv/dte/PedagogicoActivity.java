@@ -179,6 +179,9 @@ public class PedagogicoActivity extends AppCompatActivity implements NavigationV
             case "pmuralpared":
               crearDialogoSlider(getString(R.string.title_dialog_pmural), "pmuralpared");
               break;
+            case "pteatro":
+              crearDialogoSlider(getString(R.string.title_dialog_pteatro), "pteatro");
+              break;
 
             default:
               //i.putExtra("url", 1);
@@ -198,6 +201,10 @@ public class PedagogicoActivity extends AppCompatActivity implements NavigationV
               case "pfacultadinfantil":
                 Intent fei = new Intent(param1Context, FEIActivity.class);
                 startActivity(fei);
+                break;
+              case "pcolegio":
+                Intent cole = new Intent(param1Context, ColegioActivity.class);
+                startActivity(cole);
                 break;
               default:
               break;
