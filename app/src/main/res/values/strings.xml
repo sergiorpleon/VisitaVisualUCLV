@@ -174,7 +174,10 @@
  - Praxis del desarrollo local comunitario."</string>
     <string name="large_text_cecfd">"El Centro de Estudio de Cultura Física y Deporte (CECFD) surge como resultado de la integración de los cuatro Centros de Estudios (Centro de Estudios para el Tiempo Libre y la Recreación Física, Centro de Estudio de Juegos Deportivos, Centro de Estudio de Psicología del Deporte y el Centro de Estudio de Valores Sociales de la Actividad Deportiva), que existían en la Facultad de Cultura Física de Villa Clara, hoy una Facultad de la Universidad Central \"Marta Abreu\" de Las Villas. 
  Se sustenta el trabajo científico del Centro en los resultados destacados alcanzados por el territorio en los juegos deportivos durante los eventos nacionales en los Juegos Escolares y Juveniles, por los cuales esta provincia se encuentra entre las tres más destacadas en Cuba, resultados que se mantienen por más de una década."</string>
-    <string name="large_text_ced" />
+    <string name="large_text_ced">
+El CEDE forma parte de la historia de la Universidad Central “Marta Abreu” de Las Villas, pues cuenta con la primera maestría acreditada en esta Casa de Altos Estudios. Además, tiene la tarea de la superación y capacitación de los trabajadores de la administración pública, empresas, y el sector no estatal. Dentro de su colectivo laboran, sicólogos, ingenierios industriales, económistas, contadores y pedagogos. Algunos maestrantes que han pasado por sus aulas son José Antonio Valeriano y Miguel Díaz-Canel.
+Gracias a este Centro de Estudios se han graduado más de 100 maestrantes del Ministerio del Interior de la región central por lo que el Teniente Coronel José Ramón Soto comunicó su beneplácito con relación al papel de la Universidad en este aspecto.
+    </string>
     <string name="large_text_cee">"El Centro de Estudios Electroenergéticos (CEE), creado en abril de 1988 mediante una resolución rectoral, está formado por un colectivo de especialistas de la rama eléctrica que se dedican a la Línea Científica Universitaria: \"Eficiencia y Calidad de los Sistemas Eléctricos de Potencia\". 
  Las principales líneas de trabajo del CEE se relacionan con el desarrollo y aplicación de software especializado al campo de la energía eléctrica en los grupos de trabajo: Sistemas Eléctricos de Potencia, Redes de Distribución, Sistemas Eléctricos Industriales y Calidad de la Energía, Protección de Sistemas Eléctricos, Técnicas de Alta Tensión."</string>
     <string name="large_text_ceed">"Creado en el año 2000, la misión actual del Centro de Estudios de Educación \"Gaspar Jorge García Galló\" (CEEd) consiste en el desarrollo de proyectos de investigación sobre los problemas contemporáneos de la educación superior, y en estrecho vínculo con ellos ejecutar programas de superación profesional y académica que contribuyan al perfeccionamiento continuo de la formación pedagógica del claustro universitario, así como el desarrollo de espacios para la socialización de los resultados científicos. 
@@ -199,7 +202,7 @@
  Actualmente tiene como principales líneas de investigación  Ciencia e Ingeniería de la Computación, con énfasis en: Inteligencia artificial, Sistemas de Información, Procesamiento digital de señales e imágenes, y Analítica del aprendizaje. 
 
 "</string>
-    <string name="large_text_cemni">"El Centro de Estudios de Métodos Computacionales y Numéricos en la Ingeniería (CEMNI) se encuentra integrado por un colectivo de 10 profesionales entre los cuales figuran Ingenieros Civiles, Ingenieros Mecánicos, Ingenieros Computacionales, Arquitectos y Matemáticos. 
+    <string name="large_text_cemni">"El Centro de Estudios de Métodos Computacionales y Numéricos en la Ingeniería (CIMNE) se encuentra integrado por un colectivo de 10 profesionales entre los cuales figuran Ingenieros Civiles, Ingenieros Mecánicos, Ingenieros Computacionales, Arquitectos y Matemáticos.
 
  Entre las principales líneas de trabajo se destacan la producción de software y otros programas computacionales que ayudan al trabajo de cálculos en las ramas de la ingeniería. 
 
@@ -380,12 +383,12 @@
     <string name="title_activity_cbq">Centro de Bioactivos Químicos (CBQ)</string>
     <string name="title_activity_cec">Centro de Estudios Comunitarios (CEC)</string>
     <string name="title_activity_cecfd">Centro de Estudio de Cultura Física y Deporte (CECFD)</string>
-    <string name="title_activity_ced">Centro de Estudio de Dirección (CED)</string>
+    <string name="title_activity_ced">Centro de Estudio de Dirección Empresarial (CEDE)</string>
     <string name="title_activity_cee">Centro de Estudio de Electroenergética (CEE)</string>
     <string name="title_activity_ceed">Centro de Estudio de Educación (CEED)</string>
     <string name="title_activity_cei">Centro de Investigaciones Informáticas (CII)</string>
     <string name="title_activity_cejb">Centro de Estudio del Jardín Botánico (CEJB)</string>
-    <string name="title_activity_cemni">El Centro de Estudios de Métodos Computacionales y Numéricos en la Ingeniería (CEMNI)</string>
+    <string name="title_activity_cemni">El Centro de Estudios de Métodos Computacionales y Numéricos en la Ingeniería (CIMNE)</string>
     <string name="title_activity_ceqa">Centro de Estudio de Química Aplicada (CEQA)</string>
     <string name="title_activity_ceta">Centro de Estudio Energéticos y Tecnologías Ambientales (CEETA)</string>
     <string name="title_activity_ciap">Centro de Investigaciones Agropecuaria (CIAP)</string>
@@ -545,7 +548,7 @@
     <string name="title_toast_fei">Facultad de Educación Infantil (FEI)</string>
     <string name="title_toast_fem">Facultad de Educación Media (FEM)</string>
     <string name="title_toast_fentrada">Entrada Cede Fajardo</string>
-    <string name="title_toast_fgimnacio">Gimnacio</string>
+    <string name="title_toast_fgimnasio">Gimnasio</string>
     <string name="title_toast_fhcs">Facultades Humanidades - Ciencias Sociales</string>
     <string name="title_toast_fie">Facultad de Ingeniería Eléctrica (FIE)</string>
     <string name="title_toast_fimifq">Facultades Ingeniería Mecánica e Industrial - Química Farmacia</string>

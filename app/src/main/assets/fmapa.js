@@ -9,7 +9,7 @@ document.write('\
 					<area shape="rect" class="hotspot mapa lobi" coords="650, 470, 720, 540" href="#" alt="ir lobi" />\
 					<area shape="rect" class=" hotspot mapa plaza" coords="710, 420, 780, 490" href="#" alt="ir plaza" />\
 					<area shape="rect" class="hotspot mapa cruce" coords="840, 480, 910, 550" href="#" alt="ir area cruce" />\
-					<area shape="rect" class=" hotspot mapa gimnacio" coords="940, 480, 1010, 550" href="#" alt="ir area gimnacio" />\
+					<area shape="rect" class=" hotspot mapa gimnasio" coords="940, 480, 1010, 550" href="#" alt="ir area gimnacio" />\
 					<area shape="rect" class=" hotspot mapa pista" coords="1030, 530, 1100, 600" href="#" alt="ir area pista" />\
 				</map>\
 			</div>\

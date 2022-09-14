@@ -136,7 +136,7 @@ public class FajardoActivity extends AppCompatActivity implements NavigationView
                             texttoast = getString(R.string.title_toast_fcruce);
                             break;
                         case "fgimnasio":
-                            texttoast = getString(R.string.title_toast_fgimnacio);
+                            texttoast = getString(R.string.title_toast_fgimnasio);
                             break;
                         case "fpista":
                             texttoast = getString(R.string.title_toast_fpista);
@@ -155,8 +155,11 @@ public class FajardoActivity extends AppCompatActivity implements NavigationView
                         case "fsitial":
                             crearDialogoSlider(getString(R.string.title_dialog_fsalahistoria), "fsitial");
                             break;
+                        case "fsalahistoria":
+                            crearDialogoSlider(getString(R.string.title_dialog_fsalahistoria), "fsalahistoria");
+                            break;
                         case "fterapeutica":
-                            crearDialogoSlider(getString(R.string.title_toast_fgimnacio), "fterapeutica");
+                            crearDialogoSlider(getString(R.string.title_toast_fgimnasio), "fterapeutica");
                             break;
                         case "ftenis":
                             crearDialogoSlider(getString(R.string.title_dialog_ftenis), "ftenis");
@@ -254,7 +257,7 @@ public class FajardoActivity extends AppCompatActivity implements NavigationView
       case "fpista":
         this.myBrowser.loadUrl("file:///android_asset/flobi_" + this.lenguage + ".html");
         this.current = "flobi";
-      case "fgimnacio":
+      case "fgimnasio":
         this.myBrowser.loadUrl("file:///android_asset/fcruce_" + this.lenguage + ".html");
         this.current = "fcruce";
       break;
