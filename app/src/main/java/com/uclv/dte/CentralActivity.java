@@ -493,6 +493,8 @@ public class CentralActivity extends AppCompatActivity implements NavigationView
             if (str1 == this.current && this.current == "entrada")
               salir(); 
             this.myBrowser.loadUrl("file:///android_asset/entrada_" + this.lenguage + ".html");
+            this.current = "entrada";
+
             break;
           case "mapa1":
           case "mapa2":
@@ -520,6 +522,7 @@ public class CentralActivity extends AppCompatActivity implements NavigationView
             this.myBrowser.loadUrl("file:///android_asset/" + this.last + "_" + this.lenguage + ".html");
             this.current = this.last;
             break;
+            /*
           case "galeria":
             this.myBrowser.loadUrl("file:///android_asset/" + this.last + "_" + this.lenguage + ".html");
             this.current = this.last;
@@ -587,6 +590,8 @@ public class CentralActivity extends AppCompatActivity implements NavigationView
             this.myBrowser.loadUrl("file:///android_asset/salahistoria_" + this.lenguage + ".html");
             this.current = "entrada";
             break;
+        */
+
     }
   }
   

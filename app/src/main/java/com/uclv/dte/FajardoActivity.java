@@ -231,10 +231,11 @@ public class FajardoActivity extends AppCompatActivity implements NavigationView
       switch (str2) {
           default:
             this.current = "fentrada";
-              if (str1 == this.current && this.current == "fentrada")
-                salir();
-                this.myBrowser.loadUrl("file:///android_asset/fentrada_" + this.lenguage + ".html");
-              break;
+            if (str1 == this.current && this.current == "fentrada")
+             salir();
+            this.myBrowser.loadUrl("file:///android_asset/fentrada_" + this.lenguage + ".html");
+            this.current = "fentrada";
+            break;
       case "fmapa1":
       case "fmapa2":
       case "fmapa3":
@@ -249,17 +250,28 @@ public class FajardoActivity extends AppCompatActivity implements NavigationView
         this.current = "fentrada";
       break;
       case "flobi":
-        this.myBrowser.loadUrl("file:///android_asset/fentrada" + this.lenguage + ".html");
+        this.myBrowser.loadUrl("file:///android_asset/fentrada_" + this.lenguage + ".html");
         this.current = "fentrada";
       case "fplaza":
-        this.myBrowser.loadUrl("file:///android_asset/flobi_" + this.lenguage + ".html");
+        this.myBrowser.loadUrl("file:///android_asset/fentrada_" + this.lenguage + ".html");
         this.current = "fentrada";
+      case "fpista":
+         this.myBrowser.loadUrl("file:///android_asset/fentrada_" + this.lenguage + ".html");
+        this.current = "fentrada";
+      case "fgimnasio":
+        this.myBrowser.loadUrl("file:///android_asset/fentrada_" + this.lenguage + ".html");
+        this.current = "fentrada";
+        /*
+      case "fplaza":
+        this.myBrowser.loadUrl("file:///android_asset/flobi_" + this.lenguage + ".html");
+        this.current = "flobi";
       case "fpista":
         this.myBrowser.loadUrl("file:///android_asset/flobi_" + this.lenguage + ".html");
         this.current = "flobi";
       case "fgimnasio":
         this.myBrowser.loadUrl("file:///android_asset/fcruce_" + this.lenguage + ".html");
         this.current = "fcruce";
+         */
       break;
     }
   }

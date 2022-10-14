@@ -243,7 +243,8 @@ public class PedagogicoActivity extends AppCompatActivity implements NavigationV
           if (str1 == this.current && this.current == "pentrada")
             salir();
           this.myBrowser.loadUrl("file:///android_asset/pentrada_" + this.lenguage + ".html");
-          return;
+          this.current = "pentrada";
+          break;
         case "pmapa1":
         case "pmapa2":
         case "pmapa3":
@@ -267,10 +268,7 @@ public class PedagogicoActivity extends AppCompatActivity implements NavigationV
           this.myBrowser.loadUrl("file:///android_asset/" + this.last + "_" + this.lenguage + ".html");
           this.current = this.last;
           break;
-        case "galeria":
-          this.myBrowser.loadUrl("file:///android_asset/" + this.last + "_" + this.lenguage + ".html");
-          this.current = this.last;
-          break;
+          /*
         case "psalahistoria":
           this.myBrowser.loadUrl("file:///android_asset/pexteriorsalahistoria_" + this.lenguage + ".html");
           this.current = "pexteriorsalahistoria";
@@ -311,6 +309,7 @@ public class PedagogicoActivity extends AppCompatActivity implements NavigationV
           this.myBrowser.loadUrl("file:///android_asset/pentrada_" + this.lenguage + ".html");
           this.current = "pentrada";
           break;
+          */
       }
     }
   }
